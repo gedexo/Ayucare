@@ -24,6 +24,7 @@
           <th>image</th>
           <th>qualification</th>
           <th>Action</th>
+          <th>Home Page</th>
         </tr>
       </thead>
       <tbody>
@@ -43,6 +44,14 @@
             </div>
 
           </td>
+          <td>
+            {% if doctorlist.inHomeScreen %}
+              Visible
+            {% else %}
+              Not Visible
+            {% endif %}
+          </td>
+
         </tr>
         {% endfor %}
       </tbody>
@@ -53,6 +62,7 @@
           <th>image</th>
           <th>qualification</th>
           <th>Action</th>
+          <th>Home Page</th>
         </tr>
       </tfoot>
     </table>
@@ -92,14 +102,16 @@
             <div class="form-group mt-3">
                 {{doctorform.qualification}}
               </div>
-
-            
-
-            
-           
            
             <div class="my-3">
-
+              <div class="row">
+                <div class="col-4">
+              <p>Display in Home Screen? :</p>
+                </div>
+                <div class="col-6">
+              {{doctorform.inHomeScreen}}
+            </div>
+              <div>
             </div>
             <div class="text-center">
               <button class="btn btn-danger" type="submit">Submit</button>

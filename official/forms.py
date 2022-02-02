@@ -2,6 +2,8 @@ from django import forms
 from django.contrib.auth.base_user import AbstractBaseUser
 from django.db import models
 from django.db.models import fields
+
+from web.models import Gallery
 from .models import Branch,Doctor,Schedule,DistrictMap
 from django.forms.widgets import SelectMultiple, TextInput, Textarea, EmailInput, CheckboxInput,URLInput, Select, NumberInput, RadioSelect, FileInput,TimeInput
 from django.contrib.admin import widgets 
@@ -29,6 +31,7 @@ class BranchForm(forms.ModelForm):
             'location': TextInput(attrs={'class': 'form-control', 'placeholder': 'Branch Location','id':'location','name':'location'}),
             'latitude': TextInput(attrs={'class': 'form-control lat', 'placeholder': 'Branch latitude','id':'latitude','name':'latitude'}),
             'longitude': TextInput(attrs={'class': 'form-control lon', 'placeholder': 'Branch longitude','id':'longitude','name':'longitude'}),
+
         }
 
 class DoctorForm(forms.ModelForm):
@@ -40,9 +43,20 @@ class DoctorForm(forms.ModelForm):
             'name': TextInput(attrs={'class': 'form-control ', 'placeholder': 'Name','id':'name','name':'name'}),
             'image': FileInput(attrs={'class': 'form-control', 'placeholder': 'image','id':'image','name':'image'}),
             'qualification': TextInput(attrs={'class': 'form-control lat', 'placeholder': 'Designation','id':'qualification','name':'qualification'}),
+            'inHomeScreen':CheckboxInput(attrs={'class': 'form-check-input','id':'inHomeScreen','name':'inHomeScreen','checked':'true'})
             
         }
 
+
+class GalleryForm(forms.ModelForm):
+    class Meta:
+        model = Gallery
+        fields = '__all__'
+        widgets = {
+            'image': FileInput(attrs={'class': 'form-control', 'placeholder': 'image','id':'image','name':'image'}),
+          
+            
+        }
 
 class ScheduleForm(forms.ModelForm): 
     class Meta:
