@@ -74,6 +74,7 @@ def products(request):
 
 def doctors(request):
     doctors = Doctor.objects.all()
+   
     class DoctorandSchedule:
         def __init__(self,doctor,schedules,count):
             self.doctor = doctor

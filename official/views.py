@@ -4,9 +4,9 @@ from django.http import HttpResponse
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 import json
-from official.forms import BranchForm,DoctorForm,ScheduleForm,DistrictMapForm,GalleryForm
+from official.forms import BranchForm,DoctorForm,ScheduleForm,DistrictMapForm,GalleryForm,TestimonialForm
 from .models import Branch, DistrictMap, Doctor, Schedule 
-from web.models import Gallery
+from web.models import Gallery,Testimonial
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import get_user_model
 from django.contrib.auth import login as auth_login
@@ -179,7 +179,7 @@ def addGallery(request):
             response_data = {
                 "status" : "true",
                 "title" : "Successfully Added",
-                "message" : "Doctor Added"
+                "message" : "Gallery Added"
             }
         else:
             response_data = {
@@ -188,11 +188,37 @@ def addGallery(request):
         return HttpResponse(json.dumps(response_data), content_type='application/javascript')
     else:
         context = {
-            "is_addDoctor" : True,
+            "is_gallery" : True,
             "galleryForm":galleryForm,
             "galleryItems":galleryItems,
         }
     return render(request, 'official/gallery.html',context)
+
+@login_required(login_url='official:log_in')
+def addTestimonial(request):
+    TestimonialItems = Testimonial.objects.all()
+    testimonialForm = TestimonialForm(request.POST,request.FILES)
+
+    if request.method == 'POST':
+        if testimonialForm.is_valid():
+            testimonialForm.save()          
+            response_data = {
+                "status" : "true",
+                "title" : "Successfully Added",
+                "message" : "Testimonial Added"
+            }
+        else:
+            response_data = {
+                "status" : "false",
+            }
+        return HttpResponse(json.dumps(response_data), content_type='application/javascript')
+    else:
+        context = {
+            "is_testimonial" : True,
+            "testimonialForm":testimonialForm,
+            "TestimonialItems":TestimonialItems,
+        }
+    return render(request, 'official/testimonial.html',context)
 
 
 @login_required(login_url='official:log_in')
@@ -260,3 +286,12 @@ def deletsched(request,id):
     object.delete()
     return redirect("/official/addDoctor")
 
+def deleteGallery(request,id):
+    object = Gallery.objects.get(id=id)
+    object.delete()
+    return redirect("/official/addGallery")
+
+def deleteTestimonial(request,id):
+    object = Testimonial.objects.get(id=id)
+    object.delete()
+    return redirect("/official/addTestimonial")

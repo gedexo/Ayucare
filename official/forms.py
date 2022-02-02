@@ -3,7 +3,7 @@ from django.contrib.auth.base_user import AbstractBaseUser
 from django.db import models
 from django.db.models import fields
 
-from web.models import Gallery
+from web.models import Gallery, Testimonial
 from .models import Branch,Doctor,Schedule,DistrictMap
 from django.forms.widgets import SelectMultiple, TextInput, Textarea, EmailInput, CheckboxInput,URLInput, Select, NumberInput, RadioSelect, FileInput,TimeInput
 from django.contrib.admin import widgets 
@@ -58,6 +58,17 @@ class GalleryForm(forms.ModelForm):
             
         }
 
+class TestimonialForm(forms.ModelForm):
+    class Meta:
+        model = Testimonial
+        fields = '__all__'
+        widgets = {
+            'image': FileInput(attrs={'class': 'form-control', 'placeholder': 'image','id':'image','name':'image'}),
+            'name': TextInput(attrs={'class': 'form-control ', 'placeholder': 'Name','id':'name','name':'name'}),
+            'text': TextInput(attrs={'class': 'form-control ', 'placeholder': 'text','id':'text','name':'text'}),
+          
+            
+        }
 class ScheduleForm(forms.ModelForm): 
     class Meta:
         model = Schedule

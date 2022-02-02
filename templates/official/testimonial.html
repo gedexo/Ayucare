@@ -1,12 +1,14 @@
 {% extends 'official/base.html' %} {% load static %} {% block content %}
 
-<div><h3 class="text-center">Add Photos</h3></div>
+<div><h3 class="text-center">Add Testimonials</h3></div>
 <div class="container mb-5 mt-5">
   <div class="row">
-    {% for gallery in galleryItems %}
-    <div class="col-lg-3 col-md-4 col-sm-3 col-3 pb-4 {{gallery.id}}">
-      <img src="{{gallery.image.url}}" width="100%" alt="missing image" />
-      <button type="button" class="btn btn-danger" onclick="deleteGallery({{gallery.id}})">Delete</button>
+    {% for testimonial in TestimonialItems %}
+    <div class="col-lg-3 col-md-4 col-sm-3 col-3 pb-4 {{testimonial.id}}">
+      <img src="{{testimonial.image.url}}" width="100%" alt="missing image" />
+      <p>Name : {{testimonial.name}}</p>
+      <p>Text : {{testimonial.text}}</p>
+      <button type="button" class="btn btn-danger" onclick="deleteTestimonial({{testimonial.id}})">Delete</button>
     </div>
     {% endfor %}
   </div>
@@ -19,7 +21,9 @@
   >
     {% csrf_token %}
     <div class="row">
-      <div class="col-md-6 form-group">{{galleryForm.image}}</div>
+      <div class="col-md-6 form-group mt-5">{{testimonialForm.image}}</div>
+      <div class="col-md-6 form-group mt-5">{{testimonialForm.name}}</div>
+      <div class="col-md-6 form-group mt-5">{{testimonialForm.text}}</div>
       <div class="col-12 mt-5">
       <div class="text-center">
         <button class="btn btn-danger" type="submit">Submit</button>
@@ -34,7 +38,7 @@
 
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script>
-   function deleteGallery(ids) {
+   function deleteTestimonial(ids) {
     swal({
       title: "Are you sure?",
       text: "Once deleted, you will not be able to recover this Data!",
@@ -45,7 +49,7 @@
       .then((willDelete) => {
         if (willDelete) {
           $.ajax({
-            url: "/official/deleteGallery/"+ids,
+            url: "/official/deleteTestimonial/"+ids,
             type: "GET",
             success: function (response) {
               $('.' + ids).hide()

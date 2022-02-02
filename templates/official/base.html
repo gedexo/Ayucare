@@ -71,7 +71,8 @@
           <li><a class="nav-link scrollto {% if is_addBranch %}active{% endif %}" href="{% url 'official:addBranch' %}">Add Branch</a></li>
           <li><a class="nav-link scrollto {% if is_addDoctor %}active{% endif %}" href="{% url 'official:addDoctor' %}">Add Doctor</a></li>
           <li><a class="nav-link scrollto {% if is_addSchedule %}active{% endif %}" href="{% url 'official:addSchedule' %}">Add Schedule</a></li>
-          <li><a class="nav-link scrollto {% if is_addSchedule %}active{% endif %}" href="{% url 'official:addGallery' %}">Add Gallery</a></li>
+          <li><a class="nav-link scrollto {% if is_gallery %}active{% endif %}" href="{% url 'official:addGallery' %}">Add Gallery</a></li>
+          <li><a class="nav-link scrollto {% if is_testimonial %}active{% endif %}" href="{% url 'official:addTestimonial' %}">Testimonial</a></li>
           
 
           {% if user.is_authenticated %}
