@@ -1,0 +1,1404 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2021-12-23T10:02:01.962Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "rg",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2021-12-23T10:02:47.811Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "hfg",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2021-12-23T10:02:59.728Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "gfd",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2021-12-23T10:03:07.828Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "hfg",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2021-12-28T11:05:21.428Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Galleries/favicon.png",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2021-12-28T11:05:25.408Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Galleries/google.png",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2021-12-28T11:09:26.530Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "General",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"End time\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-01-05T04:57:47.240Z",
+            "user": 1,
+            "content_type": 18,
+            "object_id": "1",
+            "object_repr": "Reece Sargent",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-01-05T07:10:02.639Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "1",
+            "object_repr": "NECK-BACK-SHOULDER-KNEE-HEEL PAIN",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-01-05T07:13:31.411Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "2",
+            "object_repr": "NUMBNESS-SENSORY LOSS-BURNING NERVE STRETCHING-MUSCLE CRAMPS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-01-05T07:14:03.077Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "1",
+            "object_repr": "NECK-BACK-SHOULDER-KNEE-HEEL PAIN",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image3\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-01-05T07:15:32.964Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "3",
+            "object_repr": "HEADACHE-SINUSITIS-MIGRAINE & TENSION",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-01-05T07:17:07.846Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "4",
+            "object_repr": "ALLERGY-SNEEZING-COUGH-ASTHMA",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-01-05T07:17:59.170Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "5",
+            "object_repr": "OVERWEIGHT-SIZE, EXCESS FAT & BELLY",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-01-05T07:20:03.869Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "6",
+            "object_repr": "EMACIATION, WEIGHT LOSS, UNDERDEVELOPMENT OF ORGAN",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-01-05T07:21:50.870Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "7",
+            "object_repr": "ACIDITY, GAS,ULCER, CONSTIPATION & PILES",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-01-05T07:27:24.021Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "1",
+            "object_repr": "NECK-BACK-SHOULDER-KNEE-HEEL PAIN",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\", \"Image1\", \"Image2\", \"Image3\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-01-05T07:28:29.458Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "8",
+            "object_repr": "HAIR FALL-BREAKING, HAIR LOSS & PREMATURE GREY",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-01-05T07:30:22.794Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "9",
+            "object_repr": "PSORIASIS. DANDRUFF, SKIN DISEASE, FUNGAL INFECTION",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-01-05T07:36:12.891Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "10",
+            "object_repr": "ACNE, BLACK MARKS, HAIR GROWTH, DRY SKIN",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-01-05T07:42:49.668Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "11",
+            "object_repr": "CHILDREN'S MEMORY LOSS, LEARNING DISORDERS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-01-05T08:37:59.876Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "12",
+            "object_repr": "INSOMNIA, TENSION, MENTAL DISORDERS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-01-05T08:44:09.106Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "13",
+            "object_repr": "WOMEN DISORDERS, HORMONE PROBLEMS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-01-05T08:45:05.755Z",
+            "user": 1,
+            "content_type": 19,
+            "object_id": "14",
+            "object_repr": "COURSE SYNDROME SPERM COUNT, MOTILITY DISORDERS",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add branch",
+            "content_type": 7,
+            "codename": "add_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change branch",
+            "content_type": 7,
+            "codename": "change_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete branch",
+            "content_type": 7,
+            "codename": "delete_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view branch",
+            "content_type": 7,
+            "codename": "view_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add doctor",
+            "content_type": 8,
+            "codename": "add_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change doctor",
+            "content_type": 8,
+            "codename": "change_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete doctor",
+            "content_type": 8,
+            "codename": "delete_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view doctor",
+            "content_type": 8,
+            "codename": "view_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add gallery",
+            "content_type": 9,
+            "codename": "add_gallery"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change gallery",
+            "content_type": 9,
+            "codename": "change_gallery"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete gallery",
+            "content_type": 9,
+            "codename": "delete_gallery"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view gallery",
+            "content_type": 9,
+            "codename": "view_gallery"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add treatement",
+            "content_type": 10,
+            "codename": "add_treatement"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change treatement",
+            "content_type": 10,
+            "codename": "change_treatement"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete treatement",
+            "content_type": 10,
+            "codename": "delete_treatement"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view treatement",
+            "content_type": 10,
+            "codename": "view_treatement"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add schedule",
+            "content_type": 11,
+            "codename": "add_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change schedule",
+            "content_type": 11,
+            "codename": "change_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete schedule",
+            "content_type": 11,
+            "codename": "delete_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view schedule",
+            "content_type": 11,
+            "codename": "view_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add contact",
+            "content_type": 12,
+            "codename": "add_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change contact",
+            "content_type": 12,
+            "codename": "change_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete contact",
+            "content_type": 12,
+            "codename": "delete_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view contact",
+            "content_type": 12,
+            "codename": "view_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add schedule",
+            "content_type": 13,
+            "codename": "add_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change schedule",
+            "content_type": 13,
+            "codename": "change_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete schedule",
+            "content_type": 13,
+            "codename": "delete_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view schedule",
+            "content_type": 13,
+            "codename": "view_schedule"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add branch",
+            "content_type": 14,
+            "codename": "add_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change branch",
+            "content_type": 14,
+            "codename": "change_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete branch",
+            "content_type": 14,
+            "codename": "delete_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view branch",
+            "content_type": 14,
+            "codename": "view_branch"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add doctor",
+            "content_type": 15,
+            "codename": "add_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change doctor",
+            "content_type": 15,
+            "codename": "change_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete doctor",
+            "content_type": 15,
+            "codename": "delete_doctor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view doctor",
+            "content_type": 15,
+            "codename": "view_doctor"
+        }
+    },
+    
+    
+    
+    
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$KFuiXOiqU9pKHVUrtbHzy7$pniTug8cHjk6y9TRV6+HDYmuUqJ3t0OVlIE+OAXz+xY=",
+            "last_login": "2022-02-02T09:18:45.236Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2021-12-20T11:12:57.672Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "web",
+            "model": "branch"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "web",
+            "model": "doctor"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "web",
+            "model": "gallery"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "web",
+            "model": "treatement"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "web",
+            "model": "schedule"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "web",
+            "model": "contact"
+        }
+    },
+    
+    
+   
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 18,
+        "fields": {
+            "app_label": "web",
+            "model": "testimonial"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 19,
+        "fields": {
+            "app_label": "web",
+            "model": "treatment"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "3b95vf2bmwi6rn0hxlse18oveyumw67g",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1nF8Ib:Ygpolb_WloPsQMQt6ymIIcg6MVEUSPOcP7Mt4yatU7M",
+            "expire_date": "2022-02-16T05:35:21.027Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "71i6hyxmbd81cm16gxkm6icn2a3tr9xv",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n3Gzf:dHSMbFIhCUIjkkrjFCPvKhokni22iN85d052yayD_dg",
+            "expire_date": "2022-01-14T12:26:47.590Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ep0ngxzep2l7rvt0ngfrp7a005uftd4v",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n3XDP:u2vGRqwwUCFucrxEQ8UbN4ApUzdblQWr3nbrrFXrtbY",
+            "expire_date": "2022-01-15T05:46:03.504Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ew7tf8owikbixncviztwn30p0aigyr34",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n6lsX:gqj_pnT5o5k_zsnjnwkfawAHyI_ccV0oWLaZywyKuK0",
+            "expire_date": "2022-01-24T04:01:53.250Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "mpedy5bpksdwjokova3xh8wv8otjqgt3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1nFBmn:VYa1LATSd_qahtIYTYlQnnoy_yx-MVstqUAn25ed99g",
+            "expire_date": "2022-02-16T09:18:45.240Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "msfgp4bepydvua9g56fkedm5udnhh21x",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1nF8Mw:9xpEOMKY_w4dhbW3nVQ2a7LGRakA_wnqWDsvhP_KAIo",
+            "expire_date": "2022-02-16T05:39:50.619Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "mtru0jyidb769ueoc1xbjdi7nqjgnwhl",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n50QB:Ialm-ms1PeMsL7Qj1RI-3bKzMRTufv6MztyGEEIuLq8",
+            "expire_date": "2022-01-19T07:09:19.449Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "prci8fpi8squg108zynmgj4ro27ec1za",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n2HSH:3D7M8vRXVWEllvbHhWgihv5hrNxwwtLG_31J7SS_7Uc",
+            "expire_date": "2022-01-11T18:44:13.353Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "s1mnm02tvbw0byt6yu09ojde3z906okw",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n3Gx4:HUYQzsDby3CuOqcoml6SVNQh5u9REhoU4M2SF35BZCs",
+            "expire_date": "2022-01-14T12:24:06.238Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "tpr2csoaelkrckky2xzz63ykb324f05m",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1n3Gab:2rWnH1pBsXPj2NQLUKkIT6sbuU9YCWaeS8fxfO483wc",
+            "expire_date": "2022-01-14T12:00:53.085Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "yegpszh9hetqdpr89usk4uzqm3p3z72y",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBCKAwu3XsGMjAzUjU0Ke3KeHdt0oVu_3vvv1TCba1p67ykidRZGXX63TKWB7cd0B3bbdZlbusyZb0r-qBdX2fi5-Vw_w4q9vqthRAysQnDgACjY4-EXgiAXfROimPmyA6Ktc7nEL0NRoyMEhEjBPX-AAu1OI4:1nF8Q8:FKXxYI_lxWGP8FPPgKC3xPS9LSzPyld0P3vQUTJPElg",
+            "expire_date": "2022-02-16T05:43:08.472Z"
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 1,
+        "fields": {
+            "title": "NECK-BACK-SHOULDER-KNEE-HEEL PAIN",
+            "summary": "Pain is an uncomfortable sensation that implies something is going wrong with certain parts of the body.",
+            "image": "Treatment/pain.jpg",
+            "image1": "Treatment/shoulder-pain.jpg",
+            "image2": "Treatment/low-back-pain.jpg",
+            "image3": "Treatment/Heel-Pain-.jpg",
+            "description": "Pain is a discomfiting sensation that tells something is happening wrong in certain body parts. The unpleasant feeling that is experienced may be a prick, tingle, sting, burn or ache. The pain may affect different parts of the body such as the neck, back, shoulder, knee or heel. The part that is affected may vary but all come under the same strategies of treatment. Ayurcare Rasyana Clinics operates to cure the suffering caused by pain. For completely curing the pain, it is vital to understand the root cause of the pain. Once the root cause is determined the necessary treatment methods should be delivered to remove it from the root and prevent it from becoming chronic pain. The pain can be relieved by appropriate dieting, the right lifestyle and using natural herbs(Ayurcare uses Arka as medicine which is extracted by distilling natural herbs)."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 2,
+        "fields": {
+            "title": "NUMBNESS-SENSORY LOSS-BURNING NERVE STRETCHING-MUSCLE CRAMPS",
+            "summary": "Discomforts that happen due to damage, irritation or compression of a single nerve branch or several nerves.",
+            "image": "Treatment/numb6.jpg",
+            "image1": "Treatment/numb4.jpg",
+            "image2": "Treatment/numb5.png",
+            "image3": "Treatment/numb2.jpg",
+            "description": "Nerve pain is often experienced like stabbing, shooting or burning sensation. People having neuropathic pain are usually very sensitive to touch or cold and experience pain. The loss of sensation or feeling in any part of the body is a condition named Numbness. Numbness can ensue along a single nerve on one side of the body or evenly on both sides of the body. It can also cause sensations like burning or pins and needles feeling. When a lesion on the spinal cord creates minor trouble with the neuro system it may result in sensory loss. This can lead to loss of smell, taste, touch, sight and hearing. A muscle cramp is also a medical condition that occurs due to the overuse of muscle, dehydration, muscle strain or merely holding a position for a prolonged period."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 3,
+        "fields": {
+            "title": "HEADACHE-SINUSITIS-MIGRAINE & TENSION",
+            "summary": "Uneasiness in the head in which the magnitude of the pain differs according to the medical condition.",
+            "image": "Treatment/head3.jpg",
+            "image1": "Treatment/head.jpg",
+            "image2": "Treatment/head1.jpg",
+            "image3": "Treatment/inso.jpg",
+            "description": "Headache is an aching sensation in any portion of the head, varying from sharp to dull. Difficulties in the head may happen due to lack of sleep, stress, loud noise, tight headwear, wrongly prescribed eyeglasses or underlying diseases. Tension headache is typical in people with anxiety disorders causing a heavy head feeling. There are several kinds of headaches present, among them the most familiar four types are Sinus, Tension, Migraine and Cluster. Cluster headache is the severe condition of headache. Mild chronic headaches may result in severe medical conditions. Immediate medical assistance is required if severe, unusual pain or other signs or symptoms are shown. Sudden and very intense headache pain or thunderclap headache can be a warning for a serious problem in the head."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 4,
+        "fields": {
+            "title": "ALLERGY-SNEEZING-COUGH-ASTHMA",
+            "summary": "There are several allergens that lead your body to react vigorously and make the individual miserable.",
+            "image": "Treatment/allergy.jpg",
+            "image1": "Treatment/alergy1.jpg",
+            "image2": "Treatment/alergy2.jpg",
+            "image3": "Treatment/allergy2.jpg",
+            "description": "Allergies are the reaction of the body towards a foreign substance (Allergens-substances causing allergy). The allergens are harmless substances like pollen, mould, animal dander, latex, certain food or drinks and insect stings. Sneezing can be a symptom of allergy or stand-alone discomfort. It is the act of outsing a sudden and uncontrollable burst of air through the nose and mouth. The irritation occurs in the throat or airways the body reacts through a cough. Chest and abdomen muscles act together to push air out of the lungs to expel the irritant. Allergies and asthma often appear together. Asthma is a condition in which the airways become narrow and swell and may create extra mucus. This condition can cause extreme difficulty in breathing and produce a wheezing sound while breathing."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 5,
+        "fields": {
+            "title": "OVERWEIGHT-SIZE, EXCESS FAT & BELLY",
+            "summary": "Excess accumulation of fat can impair the body and health causing physical and mental discomforts.",
+            "image": "Treatment/fat.jpg",
+            "image1": "Treatment/fat1.jpg",
+            "image2": "Treatment/fat4.jpg",
+            "image3": "Treatment/fat3.jpg",
+            "description": "Obesity is not just a cosmetic concern but a medical problem that increases the risk of other diseases and health problems, such as heart disease, diabetes, high blood pressure and certain cancers. The condition of being overweight occurs due to the excess addition of fat in the body. A healthier diet, increased physical activity and behaviour changes can help you lose weight. Body mass index (BMI) is often used to diagnose obesity. To calculate BMI, multiply weight in pounds by 703, divide by height in inches and then divide again by height in inches. Or divide weight in kilograms by height in meters squared.  BMI below 18.5 is considered as underweight and 30.0 and higher is overweight. The major causes that lead to being overweight are, Family inheritance and influences, Lifestyle choices (Unhealthy diet, Liquid calories, Inactivity), Certain diseases, medications, Age, Social and economic issues."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 6,
+        "fields": {
+            "title": "EMACIATION, WEIGHT LOSS, UNDERDEVELOPMENT OF ORGAN",
+            "summary": "The loss of subcutaneous fat and muscle throughout the body results in extreme weight loss and unnatural thinness.",
+            "image": "Treatment/no1.jpg",
+            "image1": "Treatment/no.jpg",
+            "image2": "Treatment/no2.jpeg",
+            "image3": "Treatment/EM.jpg",
+            "description": "Emaciation is a serious, usually chronic and progressive condition characterized by significant (>20%) body weight loss. Cachexia is the end stage of emaciation. Emaciation is defined as extreme weight loss and unnatural thinness due to a loss of subcutaneous fat and muscle throughout the body. Treatment of emaciation includes gradual renourishment with a slow increase of daily caloric intake to help rebuild tissues and regain weight. Rest, and emotional and psychological therapy and support will help the process of relief. Body mass index (BMI) is often used to diagnose obesity or emaciation. BMI below 18.5 is considered as underweight and 30.0 and higher is overweight. Loss of appetite, fatigue and weakness are the common shown symptoms of emaciation"
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 7,
+        "fields": {
+            "title": "ACIDITY, GAS,ULCER, CONSTIPATION & PILES",
+            "summary": "Certain foods/ drinks or other factors may cause difficulties in the stomach that may result in severe pain.",
+            "image": "Treatment/gas2.jpeg",
+            "image1": "Treatment/gas.jpg",
+            "image2": "Treatment/gas1.jpg",
+            "image3": "Treatment/GAS3.jpg",
+            "description": "Peptic ulcers are open sores that develop on the inside lining of your stomach and the upper portion of your small intestine. The most common symptom of a peptic ulcer is stomach pain. Constipation occurs when bowel movements become less frequent and stools become difficult to pass. It happens most often due to changes in diet or routine, or due to inadequate intake of fibre. Having fewer than three bowel movements a week is, technically, the definition of constipation. Whatever your bowel movement pattern is, it’s unique and normal for you as long as you don’t stray too far from your pattern. Piles or Haemorrhoids are swollen veins in your anus and lower rectum, similar to varicose veins. Haemorrhoids can develop inside the rectum (internal haemorrhoids) or under the skin around the anus (external haemorrhoids). Haemorrhoids have a number of causes, but often the cause is unknown. There are effective treatment methods for haemorrhoids and can be cured with certain changes in lifestyles."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 8,
+        "fields": {
+            "title": "HAIR FALL-BREAKING, HAIR LOSS & PREMATURE GREY",
+            "summary": "The strength of hair may lose due to hormonal changes, medical conditions, ageing or may be hereditary.",
+            "image": "Treatment/hair.jpg",
+            "image1": "Treatment/hair2.webp",
+            "image2": "Treatment/hair1.jpeg",
+            "image3": "Treatment/hair3.png",
+            "description": "Hair is a protein filament that grows from the follicles located in the dermis. Due to the fail of hormone balance, both women and men of all ages experience hair loss and early greying. This hormone change can happen for multiple reasons such as stress, significant weight loss or weight gain, underlying disease, poor diet, or pregnancy (for women). When the hair is shed from the root, the condition is called hair loss and hair breaking is the breakage that happens in any part of the hair shaft. Hair shredding happens for everyone every day. Normal hair fall may count from 50 to 100 hairs per day and maybe more while washing the hair. Premature Graying of Hair or PGH is the early greying of the hair that is the hair turns white before getting old. Premature greying can severely affect the self-esteem of a person. Hair loss or Alopecia can affect the scalp or entire body and can be both temporary and permanent. Permanent hair fall is the condition in which the hair follicles fail to produce the hair."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 9,
+        "fields": {
+            "title": "PSORIASIS. DANDRUFF, SKIN DISEASE, FUNGAL INFECTION",
+            "summary": "Skin can be affected by fungus or other facets causing irritation, itching and uneasiness in the skin.",
+            "image": "Treatment/chori.jpg",
+            "image1": "Treatment/chori2.jpg",
+            "image2": "Treatment/chori3.jpg",
+            "image3": "Treatment/chori4.jpeg",
+            "description": "A fungal infection, also called mycosis, is a skin disease caused by a fungus. There are millions of species of fungi that live in the dirt, on plants, on household surfaces, and on your skin. Sometimes, they can lead to skin problems like rashes or bumps. A fungus that invades the tissue can cause a disease that's confined to the skin, spreads into tissue, bones and organs or affects the whole body. Skin diseases may result in red patches of skin covered with thick, silvery scales, dry, cracked skin, itching, burning or soreness, thickened, pitted or ridged nails, swollen and stiff joints. Psoriasis is a common, long-term (chronic)  skin disease with no cure that causes red, itchy scaly patches, most commonly on the knees, elbows, trunk and scalp. It tends to go through cycles, flaring for a few weeks or months, then subsiding for a while or going into remission. Treatments are available to help you handle symptoms. Incorporating lifestyle habits and coping strategies will help to live better with psoriasis."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 10,
+        "fields": {
+            "title": "ACNE, BLACK MARKS, HAIR GROWTH, DRY SKIN",
+            "summary": "When the hair follicles become clogged with oil and dead skin cells it may result in a condition called acne.",
+            "image": "Treatment/acne.jpg",
+            "image1": "Treatment/acne3.jpeg",
+            "image2": "Treatment/acne3_yDPYwEF.jpeg",
+            "image3": "Treatment/blck.jpg",
+            "description": "Skin is a sensitive part of the body that can be irritated by certain substances. Dry skin may occur not only due to underlying disease but also due to the dry environment, frequently washing hands, inadequate hydration, swimming in a chlorinated pool or working on rough surfaces. Acne is a skin condition that happens when your hair follicles become filled with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages. Effectual acne remedies are available, but acne can be persistent. The pimples and bumps heal slowly, and when one starts to go away, others seem to crop up. The earlier you start treatment, the lower your risk of developing emotional distress and scar on the skin. Dark spots are one of the common skin disorders that affect people of all ages, it may be due to previous sun exposure. It also occurs as a result of inflammation or trauma to the skin."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 11,
+        "fields": {
+            "title": "CHILDREN'S MEMORY LOSS, LEARNING DISORDERS",
+            "summary": "Memory loss or learning disorders can affect any child and should be taken for medical assistance.",
+            "image": "Treatment/child1.jpg",
+            "image1": "Treatment/child.jpg",
+            "image2": "Treatment/child3.jpg",
+            "image3": "Treatment/child-lying-down-on-blue-covers-holding-cheek.jpg",
+            "description": "Developmental and intellectual disabilities like autism, Down syndrome, Rett syndrome, and developmental language disorder commonly cause memory problems. Though some of these conditions may affect long-term and visual memory, they most often disrupt working memory. Memory loss can have causes that aren't due to underlying disease. Having a learning disorder means that a child has difficulty in one or more areas of learning, even when overall intelligence or motivation is not affected. Some of the symptoms of learning disorders are. Difficulty telling right from left, reversing letters, words, or numbers, after first or second grade. Learning disorders involve impairments or difficulties in concentration or attention, language development, or visual and aural information processing. Diagnosis includes cognitive, educational, speech and language, medical, and psychological evaluations."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 12,
+        "fields": {
+            "title": "INSOMNIA, TENSION, MENTAL DISORDERS",
+            "summary": "A mental disorder or mental illness or psychiatric disorder is a mental pattern that causes insignificant distress.",
+            "image": "Treatment/inso2.jpg",
+            "image1": "Treatment/inso3.jpg",
+            "image2": "Treatment/inso1.jpg",
+            "image3": "Treatment/inso_jcuFVnO.jpg",
+            "description": "Mental illness, also called mental health disorders, refers to a wide range of mental health conditions that affect your mood, thinking and behaviour. Examples of mental illness include depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviours. Many people have mental health concerns from time to time. But a mental health concern becomes a mental illness when ongoing signs and symptoms cause frequent stress and affect your ability to function. Insomnia is a common sleep disorder that can make it hard to fall asleep, hard to stay asleep or cause you to wake up too early and not be able to get back to sleep. You may still feel tired when you wake up. How much sleep is enough varies from person to person, but most adults need seven to eight hours a night. At some point, many adults experience short-term (acute) insomnia, which lasts for days or weeks. It's usually the result of stress or a traumatic event. But some people have long-term (chronic) insomnia that lasts for a month or more."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 13,
+        "fields": {
+            "title": "WOMEN DISORDERS, HORMONE PROBLEMS",
+            "summary": "Polycystic ovary syndrome (PCOS) is the most common female hormone disorder that causes difficulties for women.",
+            "image": "Treatment/dis1.jpg",
+            "image1": "Treatment/dis.jpg",
+            "image2": "Treatment/dis3.jpg",
+            "image3": "Treatment/dis2.jpg",
+            "description": "The major medical conditions that are of significant concern to women are heart diseases, breast cancer, osteoporosis, depression and autoimmune diseases. A hormone is a chemical substance produced by glands in the endocrine system and release into the bloodstream for performing or assisting specific functionalities. The hormone imbalance occurs when there is too much production of hormones or too little production of hormone takes place. Hormonal imbalance may cause a range of unwanted symptoms from fatigue or weight gain to itchy skin or low mood. The most typical female hormone disorder is Polycystic ovary syndrome (PCOS). It leads to irregular periods, ovarian cysts, weight gain and fertility problems. Uterine fibroids, polycystic ovary syndrome, endometriosis and primary ovarian insufficiency can lead to infertility. The disorders that affect only women include turner syndrome, Rett syndrome and ovarian & cervical cancer."
+        }
+    },
+    {
+        "model": "web.treatment",
+        "pk": 14,
+        "fields": {
+            "title": "COURSE SYNDROME SPERM COUNT, MOTILITY DISORDERS",
+            "summary": "The genetic issue, lifestyle, environmental factors and undiagnosed medical condition may cause sperm motility.",
+            "image": "Treatment/sperm3.jpg",
+            "image1": "Treatment/sperm2.jpg",
+            "image2": "Treatment/sperm1.jpg",
+            "image3": "Treatment/sperm2_T1pq7Xn.jpg",
+            "description": "Low sperm count or oligospermia is a medical abnormality in which the fluid (semen) you ejaculate during an orgasm contains fewer sperm than normal. A complete absence of sperm is called azoospermia. Your sperm count is considered lower than normal if you have fewer than 15 million sperm per millilitre of semen. Having a low sperm count decreases the chances of making a partner pregnant. Anyway, many men who have a low sperm count are still able to father a child. The main sign of low sperm count is the inability to conceive a child. There might be no other obvious signs or symptoms. The other symptoms include problems with sexual function such as low sex drive or difficulty maintaining an erection (erectile dysfunction), pain, swelling or a lump in the testicle area and decreased facial or body hair or other signs of a chromosome or hormone abnormality. The production of sperm is a complex process and requires normal functioning of the testicles (testes) as well as the hypothalamus and pituitary glands. There are several causes that develop this situation including medical causes, environmental causes and health, lifestyle and other causes."
+        }
+    },
+    {
+        "model": "web.subscribe",
+        "pk": 1,
+        "fields": {
+            "email": "ayucareclinic.com@buycodeshop.com"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 1,
+        "fields": {
+            "image": "Galleries/favicon.png"
+        }
+    },
+    {
+        "model": "web.gallery",
+        "pk": 2,
+        "fields": {
+            "image": "Galleries/google.png"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 1,
+        "fields": {
+            "name": "ASD",
+            "phone": "+1 (366) 285-1284",
+            "email": "lilen@mailinator.comas",
+            "text": "asd"
+        }
+    },
+    {
+        "model": "web.testimonial",
+        "pk": 1,
+        "fields": {
+            "name": "Reece Sargent",
+            "image": "Testimonial/default.gif",
+            "text": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
+        }
+    },
+    {
+        "model": "official.districtmap",
+        "pk": 2,
+        "fields": {
+            "name": "Wayanad",
+            "latitude": "11.7147968",
+            "longitude": "75.8289803"
+        }
+    },
+    {
+        "model": "official.districtmap",
+        "pk": 3,
+        "fields": {
+            "name": "Kozhikode",
+            "latitude": "11.4649273",
+            "longitude": "75.5568084"
+        }
+    },
+    {
+        "model": "official.districtmap",
+        "pk": 4,
+        "fields": {
+            "name": "Malappuram",
+            "latitude": "11.0618597",
+            "longitude": "76.0333722"
+        }
+    },
+    {
+        "model": "official.districtmap",
+        "pk": 5,
+        "fields": {
+            "name": "Manjeri",
+            "latitude": "11.117658",
+            "longitude": "76.0945444"
+        }
+    },
+    {
+        "model": "official.districtmap",
+        "pk": 10,
+        "fields": {
+            "name": "Kannur",
+            "latitude": "11.9867166",
+            "longitude": "75.2759514"
+        }
+    },
+    {
+        "model": "official.branch",
+        "pk": 4,
+        "fields": {
+            "name": "Kondotty",
+            "title": "Maliyekal Medicals",
+            "phone": "1234567891",
+            "location": "Kondotty",
+            "latitude": "11.1464674",
+            "longitude": "75.9661427"
+        }
+    },
+    {
+        "model": "official.branch",
+        "pk": 5,
+        "fields": {
+            "name": "Neethi",
+            "title": "Neethi Medical Store",
+            "phone": "1234654987",
+            "location": "Thalassery",
+            "latitude": "11.7481103",
+            "longitude": "75.4872057"
+        }
+    },
+    {
+        "model": "official.doctor",
+        "pk": 5,
+        "fields": {
+            "register_number": 16404,
+            "name": "Dr. Athulya Nair",
+            "image": "doctors/WhatsApp_Image_2021-11-18_at_07.51.42.jpeg",
+            "qualification": "BAMS, MD"
+        }
+    },
+    {
+        "model": "official.schedule",
+        "pk": 4,
+        "fields": {
+            "treatment": "Ayurvedic",
+            "branch": 4,
+            "doctor": 5,
+            "day": "Monday",
+            "start_time": "16:26:00",
+            "end_time": "21:26:00"
+        }
+    },
+    {
+        "model": "official.schedule",
+        "pk": 5,
+        "fields": {
+            "treatment": "qsa",
+            "branch": 5,
+            "doctor": 5,
+            "day": "Monday",
+            "start_time": "21:38:00",
+            "end_time": "04:39:00"
+        }
+    }
+]

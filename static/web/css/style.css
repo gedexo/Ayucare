@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@200;300;400;500;700;800;900;1000&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -361,11 +362,11 @@ footer {
 
 .ayurrr {
     font-family: 'Marcellus', serif !important;
-    background: linear-gradient(black,black,#3f993c);
+    background: linear-gradient(black, black, #3f993c);
     text-align: justify;
     padding: 0px 45px;
     padding-top: 20px;
-    
+
 }
 
 .ayurrr h2,
@@ -373,7 +374,8 @@ p {
     font-family: 'Marcellus', serif !important;
     color: white;
 }
-p{
+
+p {
     font-size: 15px;
     margin-bottom: 0px;
 }
@@ -523,7 +525,7 @@ p{
 }
 
 .searc {
-    
+
     padding: 30px 0px;
     background: rgb(0 0 0 / 65%);
     text-align: -webkit-center;
@@ -541,7 +543,7 @@ p{
 
 .searcc {
     right: 30px;
-    
+
     padding: 35px 0px;
     background: rgb(0 0 0 / 65%);
     text-align: -webkit-center;
@@ -587,7 +589,7 @@ p{
     left: 8%;
     bottom: 5%;
     z-index: 9999;
-    background: linear-gradient(black,black,#3f993c);
+    background: linear-gradient(black, black, #3f993c);
     border-radius: 30px;
     padding: 15px;
 }
@@ -634,11 +636,12 @@ p{
 .pop-bg {
     background-color: #22201a;
 }
+
 .about-link:hover {
     cursor: pointer;
 }
 
-.colr-bg{
+.colr-bg {
     background: rgba(49, 49, 49, 0.9);
     text-align: -webkit-center;
     border-radius: 15px;
@@ -646,8 +649,8 @@ p{
 }
 
 
-.posit-absl{
-   
+.posit-absl {
+
     position: fixed;
     z-index: 1000;
     top: 33%;
@@ -670,48 +673,48 @@ p{
 }
 
 
-.ui-widget-content{
+.ui-widget-content {
     color: white;
     background: rgb(0 0 0 / 65%);
     width: 220px !important;
-    
+
 }
 
-.ui-widget-content li{
+.ui-widget-content li {
     list-style: none;
     padding: 5px 0px;
 }
 
-.bookcre p{
+.bookcre p {
     color: black;
     font-size: 15px;
-    
-    
+
+
 }
 
-.bookcre span{
-   
+.bookcre span {
+
     font-weight: 600;
 }
 
-.img-borrd img{
+.img-borrd img {
     border-radius: 50%;
     border: 2px solid #3f993c;
 }
 
 
-.fon-we-600{
+.fon-we-600 {
     font-weight: 600;
     margin-bottom: 2px;
 }
 
 
-.place-self-center{
-    
+.place-self-center {
+
     place-self: center;
 }
 
-.box-shadow-19{
+.box-shadow-19 {
     box-shadow: 5px 5px 18px rgb(0 0 0 / 16%);
     padding: 15px;
     height: 100%;
@@ -719,25 +722,28 @@ p{
     background: #fff9f7;
 
 }
+
 .img-borrd h6 {
     margin-bottom: 3px;
 }
-.box-sh{
+
+.box-sh {
     box-shadow: 5px 5px 18px rgb(0 0 0 / 16%);
     padding: 20px 0px;
     border-radius: 15px;
 }
 
-.colr-bg input{
+.colr-bg input {
     color: white;
 }
-.p-what{
+
+.p-what {
     color: black;
     margin-bottom: 10px;
     text-align: left;
 }
 
-.p-what span{
+.p-what span {
     font-weight: 600;
 }
 
@@ -752,42 +758,45 @@ p{
     margin: 0 auto;
     max-width: 1300px;
     width: 100%;
-  }
-  
-  .item {
+}
+
+.item {
     align-items: center;
     background-color: #633d37;
     color: white;
-    background: linear-gradient(black,black,#3f993c);
+    background: linear-gradient(black, black, #3f993c);
     justify-content: center;
-    height: 300px;
+    /* height: 300px; */
+    height: 255px;
     padding: 20px 20px;
     border-radius: 20px;
-  }
+}
 
-  .item h6{
+.item h6 {
     font-size: 15px;
     text-align: center;
-  }
+}
 
-  .item p{
+.item p {
     font-size: 14px;
     margin-bottom: 0px;
-    line-height: 18px;
+    /* line-height: 18px; */
+    line-height: 28px;
     text-align: center;
-    
-  }
 
-  .item{
-      
-      text-align: center;
-  }
+}
 
-  .img-rrr{
+.item {
+
+    text-align: center;
+}
+
+.img-rrr {
     border-radius: 50%;
     border: 5px solid WHITE;
-  }
-  .namsum {
+}
+
+.namsum {
     display: none;
     position: absolute;
     background: rgb(0 0 0 / 70%);
@@ -800,22 +809,102 @@ p{
     padding: 6px 0px;
     text-align: center;
     transition: 0.9s;
-    
+
     /* border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px; */
-  }
-  .namsum p{
+}
+
+.namsum p {
     font-size: 13px;
     line-height: 14px;
     padding: 0px 15px;
-  }
-  .namsum:hover{
-      display: block;
-      transition: 0.9s;
-  }
+}
 
-  .namimg:hover + .namsum {
+.namsum:hover {
     display: block;
-    
-  }
+    transition: 0.9s;
+}
 
+.namimg:hover+.namsum {
+    display: block;
+
+}
+
+.treatemethod-box {
+    align-items: center;
+
+    color: white;
+    /* background: linear-gradient(black,black,#3f993c); */
+    justify-content: center;
+    /* height: 300px; */
+    height: 308px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.MUKHARAKSHA {
+    background-image: url(../images/treatement/mukharaksha.jpg);
+    background-size: cover;
+}
+
+.vajiraksha {
+    background-image: url(../images/treatement/vajiraksha\ \(2\).jpg);
+    background-size: cover;
+
+}
+
+.dahanaraksha {
+    background-image: url(../images/treatement/dahanaraksha.jpg);
+    background-size: cover;
+
+}
+.kesharaksha {
+    background-image: url(../images/treatement/kesharaksha.jpg);
+    background-size: cover;
+}
+.swasaraksha {
+    background-image: url(../images/treatement/swasaraksha.jpg);
+    background-size: cover;
+}
+.charmaraksha {
+    background-image: url(../images/treatement/charmaraksha.jpg);
+    background-size: cover;
+}
+.manoraksha {
+    background-image: url(../images/treatement/manoraksha.jpg);
+    background-size: cover;
+}
+.satwaraksha {
+    background-image: url(../images/treatement/satwaraksha.jpg);
+    background-size: cover;
+}
+.deharaksha {
+    background-image: url(../images/treatement/deharaksha.jpg);
+    background-size: cover;
+}
+
+.balaraksha {
+    background-size: cover;
+    background-image: url(../images/treatement/balaraksha.jpg);
+}
+.sthreeraksha {
+    background-size: cover;
+    background-image: url(../images/treatement/sthreeraksha.jpg);
+}
+
+.vythiraksha {
+    background-size: cover;
+    background-image: url(../images/treatement/vydhiraksha.jpg);
+}
+.siroraksha {
+    background-size: cover;
+    background-image: url(../images/treatement/siroraksha.jpg);
+}
+.vataraksha {
+    background-size: cover;
+    background-image: url(../images/treatement/vataraksha.jpg);
+}
+.prodirodharaksha {
+    background-size: cover;
+    background-image: url(../images/treatement/pradhirodharaksha.jpg);
+}
