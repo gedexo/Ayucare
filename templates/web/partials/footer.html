@@ -1,0 +1,67 @@
+<!-- start footer -->
+{% load static %}
+<footer>
+    <div class="container ">
+        <div class="row pt-5 pb-3 ">
+
+            <div class="mb-3 col-lg-3 col-md-12 col-sm-12 col-12 f1 ">
+                <div class="row mb-5 flogo ">
+                    <img height="60px" src="{% static 'web/images/ayucareft.svg' %}" alt="">
+                </div>
+                <div class="row mt-10 flocat ">
+                    <div class=" input-group ">
+                        <input type="text " class="form-control form-controll " placeholder="Locate us " aria-label="Locate us " aria-describedby="basic-addon2 ">
+                        <div class="input-group-append ">
+                            <span class="input-group-text input-group-textt " style="background-color:#3f993c; border-color: #3f993c; " id="basic-addon2 "><span class="iconify input-group-textt " data-icon="fluent:location-28-filled "></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 col-lg-3 col-md-6 col-sm-6 col-6 f2 use pl-3 ">
+                <h5>Useful Links</h5>
+                <ul>
+                    <a href="{% url 'web:about' %}">
+                        <li> <span> > </span>ABOUT US</li>
+                    </a>
+                    <a href="{% url 'web:products' %}">
+                        <li> <span> > </span>PRODUCTS</li>
+                    </a>
+                    <a href="{% url 'web:gallery' %}">
+                        <li> <span> > </span>GALLERY</li>
+                    </a>
+                    <a href="{% url 'web:contact' %}">
+                        <li> <span> > </span>CONTACT US</li>
+                    </a>
+                    <a href="{% url 'web:doctors' %}">
+                        <li> <span> > </span>OUR DOCTORS</li>
+                    </a>
+
+                </ul>
+            </div>
+            <div class="mb-3 col-lg-3 col-md-6 col-sm-6 col-6 f3 use ">
+                <h5>Contact Us</h5>
+                <ul>
+                    <a href="mailto:info@ayucare.com ">
+                        <li> <span class="iconify mr-2 cont " data-icon="ant-design:mail-twotone "></span>info@ayucare.com</li>
+                    </a>
+                    <a href="tel:+919876543210 ">
+                        <li> <span class="iconify mr-2 cont " data-icon="cil:mobile "></span>(+91)9876543210</li>
+                    </a>
+
+
+                </ul>
+            </div>
+            <div class="mb-3 col-lg-3 col-md-12 col-sm-12 col-12 f4 follow ">
+
+                Follow Us on
+                <a href="# " class="ml-2 pr-2 "><span class="iconify " data-icon="bi:twitter "></span> </a>
+                <a href="# " class="pr-2 "><span class="iconify " data-icon="bi:facebook "></span> </a>
+                <a href="# " class=" "><span class="iconify " data-icon="bi:instagram "></span> </a>
+            </div>
+
+        </div>
+        <div class="row justify-content-center copy ">
+            <p>Copyright © 2021. All rights reserved.Design by <a style="color: #3f993c; " href="https://gedexo.com/ " target="blank ">Gedexo</a> </p>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,826 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="main">
+
+    <div class="container-fluid mb-4">
+        <div class="row">
+            <div class="col-lg-12 col-12 p-0">
+                <img class="banbg" width="100%" src="{% static 'web/images/banner.png' %}" style="position: relative;"
+                    alt="">
+
+                <div class="col-lg-6 col-10 ayurveda">
+                    <h1>AYURVEDA</h1>
+                    <h2>"ANCIENT INDIAN PHILOSOPHY AND HOLISTIC HEALING"</h2>
+                    <p>The finest treatment method to cure by Arka Chikitsa, to nourish your body, mind and soul.</p>
+                    <button class="read" onclick="setScroll('aboutAYUCAREId')">READ MORE</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="vector text-center">
+        <svg class="svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+    </div>
+
+    <p class="overall">Overall wellness through <span class="orang">Ayurveda</span> is our muse</p>
+
+    <div class="vector text-center mb-5">
+        <svg class="svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-12 p-0 sm-rela">
+                <img width="100%" src="{% static 'web/images/abouthome.png' %}" alt="">
+            </div>
+            <div class="col-lg-7 col-9 about sm-absolu">
+                <div class="aboutt">
+                    <h2><span>AYUCARE RASAYANA CLINIC</span> </h2>
+                    <h2>"LEGACY IN AYURVEDA, EXCELLENCE IN CARE"</h2>
+
+                    <p>Ayucare is the Ayurvedic medicinal clinic established by Dr K Mahesh Menon to improve the
+                        efficiency of the ayurvedic treatment by collaborating with Arka Chikitsa.</p>
+                    <button onclick="setScroll('whyAYUCAREId')" class="read">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vector text-center mt-5 mb-5">
+        <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+        <svg class="ml-4 mr-4 svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+        <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+    </div>
+
+
+    <p class="overall sm-overa">NO SIDE EFFECTS BUT WITH BENEFITS THE EASIER AND EFFECTIVE TREATMENT  FOR EVERYONE.</p>
+
+    <!-- ----------why AYUCARE section-------- -->
+    <div class="p-0 container-fluid">
+        <img style="position: absolute;" width="100%" class="blur sm-why" src="{% static 'web/images/whybg.png' %}"
+            alt="">
+        <div class="row topp mr-100">
+            <div class="col-lg-8 col-10 why">
+                <h2>Why <span>AYUCARE</span> </h2>
+                <p>Ayucare Rasayana Clinic is the collaboration of traditional Ayurvedic treatment, Arka Chikitsa with a
+                    highly Potent Medicine for Curing, Keraleeya Marjan Kriyakarma and Speciality Massage System.</p>
+                <button onclick="setScroll('chikitsaID')" class="read">READ MORE</button>
+            </div>
+            <div class="col-lg-4 pr-0 dd-none">
+                <img src="{% static 'web/images/whyside.png' %}" class="float-right just" width="80%" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    {% comment %}
+    <div id="popuppw" class="d-none position-fixed bottom-50">
+        <div class="container poupup">
+            <div class="row text-left">
+                <div class="col-lg-12 d-sm-none">
+                    <div class="vector text-center mt-1 mb-1">
+                        <svg width="10" height="10" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                                fill="#3f993c" />
+                        </svg>
+                        <svg class="ml-3 mr-3 svg-20" width="15" height="15" viewBox="0 0 35 35" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                                fill="#3f993c" />
+                        </svg>
+                        <svg width="10" height="10" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                                fill="#3f993c" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 mb-4 pl-5">
+
+                    <h5 class="pb-">AYUCARE RASAYANA CLINICS</h5>
+                    <p>Among different types of ayurvedic formulations, ARKA KALPANA is the foremost growing demand in
+                        the current modern world. It is introduced and practised around 200 clinics in different
+                        districts of Kerala under the name AYUCARE
+                        RASAYANA CLINICS. These clinics have been organised to bring the efficacy of Ayurveda with
+                        easier applicable form devoid of Kashayam, Uzhichil like usual treatment of Ayurveda. Due to its
+                        high potency, reduced dose, better
+                        shelf life, easy absorption, fast action, and patient compliance Arka Kalpana has become
+                        amenable to Ayurvedic treatment.</p>
+                    <h6 class="sm-font">SPECIALITIES OF AYUCARE RASAYANA CLINICS</h6>
+                    <ul>
+                        <li> Ayucare introduced the combination of herbal medicine that is highly potent Arka (Distilled
+                            extract of ayurvedic herbs) and bhavitharasayanagulika which is devoid of taste and smell
+                            and patient compliant.</li>
+                        <li>Ayucare provides self-home amenable therapy medicines.</li>
+                        <li>These medicines do not have any Pathya or restrictions hence can be taken along with your
+                            habitual diets.</li>
+                        <li>No need to follow neither long term rest as per Uzhichil treatments nor long term use of
+                            medicine to cure the issues.</li>
+                        <li>The medication does not react with other foreign medicines hence one can easily take it with
+                            their previous prescribed medicines.</li>
+                        <li>AYUCARE provides all certified medicines devoid of any heavy metals so it produces no side
+                            effects for the liver, kidney or any other organs.</li>
+                        <li>Availability of expert panel of certified doctors in all clinics.</li>
+                        <li>We provide both internal medicine and external application products.</li>
+                        <li class="d-none">Shelf life of medicine is from 3months to 1year</li>
+                        <li>We also provide online consultation for physically disabled or bedridden patients</li>
+                        <li>We established 200 clinics in different districts of Kerala for the patient’s convenience.
+                        </li>
+                    </ul>
+
+                </div>
+
+
+
+                <div class="col-lg-12 text-center mt-3 mb-3 sm-mg">
+                    <button onclick="readoutw()" class="read ">DONE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endcomment %}
+
+
+    <section class="mb-150 mb-140" style="margin-bottom: 200px;"></section>
+
+
+    <div class="vector text-center mb-4 ">
+        <svg class="svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+    </div>
+
+
+    <div class="text-center">
+        <p class="overall">What make us different</p>
+
+        <div class="vector text-center mb-4 "><svg class="svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                    fill="#3f993c" />
+            </svg>
+        </div>
+
+        <p class="overall font-20 linefont">AYU: CARE runs 150 clinics all under the name “AYU: CARE AYURVEDA RASAYANA
+            CLINICS”across Kerala to provide the best Ayurvedic treatment for all.</p>
+        <p class="overall font-20 linefont">The Ayurvedic treatments are based on “ARKA CHIKITSA”.We aim to make the
+            Ayurveda treatments free of “KASHAYA and UZHICHIL”. Arka Chikitsa uses “ARKAS” as medicine. The most potent
+            form of Ayurveda medicine and is distilled extract of medicinal herbs.
+        </p>
+        <p class="overall font-20 linefont">In addition to Arka Chikitsa, Self Home Therapy or DIY (Do it Yourself) is
+            also practised based on “Marjan Kriyakarma”. DIY is very compatible with our modern lifestyle. The treatment
+            produces no side effects and is attentive to all including diabetic patients.</p>
+        <!-- <button onclick="readd()" class="read makes">READ MORE</button> -->
+    </div>
+
+
+
+    <div id="popuppp" class="d-none position-fixed bottom-50">
+        <div class="container poupup">
+            <div class="row text-left">
+
+
+                <div class="col-lg-8 col-11 mb-1 pl-4 pt-2 akra pop-bg">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="{% static 'web/images/aaa.jpg' %}" alt="Card image cap">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card" style="width: 100%;">
+                                <img class="card-img-top" src="{% static 'web/images/aaa.jpg' %}" alt="Card image cap">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="text-center pt-2">ARKA CHIKITSA</h5>
+                    <p>Arka is the highly potent form of ayurvedic medicine in which the real active ingredient of the
+                        medicine is collected by the process of distillation. Arkaprakasha is the first ayurvedic
+                        authentic text about Arka Kalpana introduced in the later part of Ayurveda (AD-18) after the
+                        Samhitas period seemed to be the contribution of the great king Ravana. Later the text like
+                        Gadanigraha, Asava-Arista Vigyana and Sahasrayoga was written that describes the Arka yantra and
+                        Arka preparation. Arkaprakash by Ravan is considered a compressive referral book even though
+                        there were several books written about Arka Kalpana. Arkakalpanahas was given specific
+                        importance and it opines that it has more potency in comparison to the other kalpanas since it
+                        has all volatile active substances in the effective form in its final product. Arkakalpana is a
+                        very unique formulation in Ayurvedic Pharmaceutics for its method of preparation and efficacy.
+                    </p>
+                    <div class="col-12 text-center mt-2 mb-2 sm-mg">
+                        <button onclick="readoutt()" class="read ">DONE</button>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="vector text-center mt-5 mb-5">
+        <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+        <svg class="ml-4 mr-4 svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+        <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                fill="#3f993c" />
+        </svg>
+    </div>
+
+
+
+    <div class="text-center">
+
+        <p class="overall" style="text-transform: capitalize;">Ayurcae Treatment For Ailments</p>
+        <p class="overall font-20 linefont dd-none">Ayu care proposes treatment methods for several human ailments. This
+            Ayurvedic approach is embedded with Arka Chikitsa which uses a highly potent medicine to cure ailments but
+            never uses the Kashaya and Massage. The Rasanya Chikitsa helps to boost up the immunity of the individual.
+            Ayucare Rasayana clinic put forward treatment methods for the following ailments.</p>
+
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row treatment">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <ul>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">NECK-BACK-SHOULDER-KNEE-HEEL PAIN</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">NUMBNESS-SENSORYLOSS-BURNING NERVE STRETCHING-MUSCLE CRAMPS</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">HEAD
+                            ACHE-SINUSITIS-MIGRAINE & TENSION</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">ALLERGY-SNEEZING-COUGH-ASTHMA</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">OVER
+                            WEIGHT-SIZE, EXCESS FAT & BELLY</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">EMACIATION, WEIGHT LOSS, UNDER DEVELOPMENT OF ORGAN</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">ACIDITY,
+                            GAS,ULCER, CONSTIPATION & PILES</span> </li>
+
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                <ul>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">PSORIASIS. DANDRUFF, SKIN DISEASE, FUNGAL INFECTION</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">ACNE,
+                            BLACK MARKS, HAIR GROWTH, DRY SKIN</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">CHILDREN'S MEMORY LOSS, LEARNING DISORDERS</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span
+                            class="ml-2">INSOMNIA, TENSION, MENTAL DISORDERS</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">WOMEN
+                            DISORDERS, HORMONE PROBLEMS</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">COURSE
+                            SYNDROME SPERM COUNT, MOTILITY DISORDERS</span> </li>
+                    <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">HAIR
+                            FALL-BREAKING, HAIR LOSSS & PREMATURE GREY</span> </li>
+
+                    <!-- <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">Piles</span> </li>
+                        <li><img class="pb-1" src="{% static 'web/images/vector.svg' %}" alt=""> <span class="ml-2">Psoriasis</span> </li> -->
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+            {% for treatment in treatment %}
+            <div class="item p-0 itemm">
+                <img style="position:relative " width="100% " src="{{treatment.image.crop.250x250}}" alt=" ">
+                <div style="position:absolute; " class="content">
+                    <h2>{{treatment.title}}</h2>
+                    <p>{{treatment.summary}}</p>
+
+                    <button onclick="read('{{treatment.id}}')" class="read mt-2">READ MORE</button>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- POPUP -->
+        {% for treatment in treatment %}
+        <div id="popupp{{treatment.id}}" class="d-none position-fixed bottom-50">
+            <div class="container poupup">
+                <div class="row text-left">
+
+                    <div class="col-lg-12 col-md-12 text-center mt-3">
+                        <h3>{{treatment.title}} <span onclick="readout('{{treatment.id}}')" class="iconify float-right"
+                                data-icon="ci:off-close"></span> </h3>
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center mt-3 d-none d-lg-block">
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <img class="img-rrr" src="{{treatment.image.crop.250x250}}" width="100% " alt=" ">
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <img class="img-rrr" src="{{treatment.image1.crop.250x250}}" width="100% " alt=" ">
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <img class="img-rrr" src="{{treatment.image2.crop.250x250}}" width="100% " alt=" ">
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12">
+                                <img class="img-rrr" src="{{treatment.image3.crop.250x250}}" width="100% " alt=" ">
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12 mt-3 mb-2 pl-4">
+                        <div class="row">
+
+                            <p>{{treatment.description}}</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-12 text-center mt-3 mb-3 sm-mg">
+                        <button onclick="readout('{{treatment.id}}')" class="read ">DONE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <hr width="25% ">
+
+    <div class="text-center">
+        <p class="overall">AYUCARE TREATMENT METHODS</p>
+        <p class="overall font-20 linefont dd-none">Ayu care proposes treatment methods for several human ailments. This
+            Ayurvedic approach is embedded  with Arka Chikitsa which uses a highly potent medicine to cure ailments but
+            never uses the Kashaya and Massage.The Rasanya Chikitsa helps
+            to boost up the immunity of the individual.</p>
+
+    </div>
+
+    <div class="container">
+
+
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+            <div class="item">
+                <h6>VATARAKSHA</h6>
+                <p>Care for musculoskeletal and neurovascular diseases care, like cervical spondylosis, disc
+                    problem, sciatica, lumbar spondylosis, tendonitis, ligament tear, osteoporosis, gouty arthritis,
+                    osteoarthritis, rheumatoid arthritis, frozen shoulder, tennis elbow, plantar fasciitis, stroke,
+                    varicose vein, carpal tunnel syndrome, fibromyalgia, diabetic neuropathy, muscular dystrophy,
+                    TAO.</p>
+
+            </div>
+            <div class="item">
+                <h6>DEHARAKSHA</h6>
+                <p>Deharaksha provides treatment for obesity, emaciation, lifestyle disorders like diabetes,
+                    hypercholesteremia, hypertension, leading to the body in maintaining a healthy life, hormonal issue,
+                    post-delivery care, cellulitis, fatty thigh, breathing difficulty due to obesity, anaemia, early
+                    ageing.</p>
+
+            </div>
+            <div class="item">
+                <h6>SIRORAKSHA</h6>
+                <p>Effective treatment method for curing migraine, headache, sinusitis, talaneerirakam, eyecare, upper
+                    clavicular diseases, travel headache, headache related to stress and heat.</p>
+
+            </div>
+            <div class="item">
+                <h6>SWASARAKSHA</h6>
+                <p>This incorporates remedies for both upper and lower respiratory diseases, allergy, asthma, sinusitis
+                    and post-corona care, nasal polyp, DNS, tonsilitis, wheezing, rhinitis.</p>
+
+            </div>
+            <div class="item">
+                <h6>CHARMA RAKSHA</h6>
+                <p>This includes cautiousness to skin diseases, dermatitis, pigmentation, psoriasis, skin allergy,
+                    pimples and fungal diseases, nail infection, scalp psoriasis, dry skin, crack foot, psoriatic
+                    arthritis.</p>
+
+            </div>
+            <div class="item">
+                <h6>KESHARAKSHA</h6>
+                <p>Kesharaksha aids in haircare for diseases like dandruff, hair loss, early greying. This helps to
+                    improve healthy hair growth and cure for all scalp ailments.</p>
+
+            </div>
+            <div class="item">
+                <h6>MUKHARAKSHA</h6>
+                <p>This procedure encloses skincare for preventing pimples, pigmentation, dark spot and thereby
+                    providing skin glow, facial hair, dark circle, dark marks.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>DAHANA RAKSHA</h6>
+                <p>This includes care for digestion, dyspepsia, acidity, bloating, constipation, gastritis, intestinal
+                    worm infestation, haemorrhoid, IBS, piles, fistula, fissure, and gastrointestinal issues.</p>
+
+            </div>
+            <div class="item">
+                <h6>VYADHIRAKSHA</h6>
+                <p>Vyadhiraksha provides care for ailments and diseases and symptoms persisting after chronic diseases
+                    cases, palliative care for different chronic ailments and geriatric care for maintaining health.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>VAJI RAKSHA
+                </h6>
+                <p>This includes treatments for sexual dysfunction, premature ejaculation, erectile dysfunction, and
+                    concern with aphrodisiac, and to improve the health of progeny, low sperm count, varicocele.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>STHREERAKSHA</h6>
+                <p>This includes care for health problems of women like PCOD, vaginitis, fibroid, infertility, menstrual
+                    pain, amenorrhea, leucorrhea, thyroid diseases, urine incontinence, vaginal dryness, and menopause
+                    ailments.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>BALARAKSHA</h6>
+                <p>Helps in pediatric care like care for memory loss, lack of concentration, and physical strength or
+                    allergy issues of children, bedwetting, loss of appetite, underdevelopment of the brain.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>SATWARAKSHA</h6>
+                <p>This treatment method helps in improving mental stability, and stress management, insomnia, excess
+                    sleep, laziness, and tiredness
+
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>MANORAKSHA</h6>
+                <p>Providing psychiatric care, mental diseases, dementia, and memory loss, learning disorder, anxiety,
+                    depression, disorders related to alcoholism and drug use.
+                </p>
+
+            </div>
+            <div class="item">
+                <h6>PRATHIRODHA RAKSHA
+                </h6>
+                <p>This includes care for the body to boost up the immunity and strength, it also helps to prevent
+                    allergic ailments and post corona symptoms care as well as preventive aspects from corona and other
+                    viruses.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr width="25% ">
+
+    <div class="vector text-center mb-4 ">
+        <svg class="svg-20 " width="35 " height="35 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583
+                                        4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917
+                                        35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583
+                                        8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625
+                                        11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083
+                                        24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083
+                                        13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+    </div>
+
+
+    <div class="text-center mb-5 curre ">
+        <p class="overall mb-0 ">We care about your cure</p>
+        <p class="overall font-20 mt-0 ">150 clinics across kerala, locate and book appointments at the nearest AYUCARE
+        </p>
+
+    </div>
+
+
+    <div class="container-fluid care ">
+        <div class="row ">
+            <div class="col-lg-12 p-0 ">
+                <img class="dd-none " style="position: relative; " src="{% static 'web/images/care.png' %} "
+                    width="100% " alt=" ">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 locate ">
+                    <div class=" input-group ">
+                        <input hidden type="text" id="auto" class="form-control " placeholder="Search District "
+
+                            aria-label="Search District " aria-describedby="basic-addon2 ">
+                        <div style="cursor: pointer;" onclick="window.location.href='branch/'"
+                            class="input-group-append ">
+                            <span class="input-group-text" id="basic-addon2 ">Locate Us</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="text-center mb-5 ">
+        <p class="overall ">Meet our experts, we are for you</p>
+    </div>
+
+
+    <div class="vector text-center mt-5 mb-5 ">
+        <svg class="svg-15 " width="20 " height="20 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417
+                                        1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042
+                                        31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917
+                                        9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625
+                                        11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083
+                                        28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667
+                                        14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+        <svg class="ml-4 mr-4 svg-20 " width="35 " height="35 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417
+                                        1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042
+                                        31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917
+                                        9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625
+                                        11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083
+                                        28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667
+                                        14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+        <svg class="svg-15 " width="20 " height="20 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417
+                                        1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042
+                                        31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917
+                                        9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625
+                                        11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083
+                                        28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667
+                                        14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+    </div>
+
+
+
+    <div class="container text-center doctor doc-height ">
+        <div class="row ">
+
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 ">
+                <img src="{% static 'web/images/doctor/Dr Priya Mahesh-10919.jpeg' %} " width="100% " alt=" ">
+                <h3>Dr. Priya Mahesh</h3>
+                <h4>BAMS, MD</h4>
+                <button class="read check ">Check Availability</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 ">
+                <img src="{% static 'web/images/doctor/Dr Krishna Priya-22600.jpeg' %} " width="100% " alt=" ">
+                <h3>Dr. Krishna Priya</h3>
+                <h4>BAMS, MD</h4>
+                <button class="read check ">Check Availability</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-3 ">
+                <img src="{% static 'web/images/doctor/Dr. Sumitha U R-22506.jpeg' %} " width="100% " alt=" ">
+                <h3>Dr. Sumitha U R</h3>
+                <h4>BAMS, MD</h4>
+                <button class="read check ">Check Availability</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="vector text-center mt-5 mb-5 ">
+        <svg class="svg-15 " width="20 " height="20 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583
+                                        4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917
+                                        35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583
+                                        8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625
+                                        11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083
+                                        24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083
+                                        13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+        <svg class="ml-4 mr-4 svg-20 " width="35 " height="35 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583
+                                        4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917
+                                        35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583
+                                        8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625
+                                        11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083
+                                        24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083
+                                        13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+        <svg class="svg-15 " width="20 " height="20 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path
+                d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417
+                                        1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042
+                                        31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917
+                                        9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625
+                                        11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083
+                                        28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667
+                                        14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+    </div>
+
+
+
+    <div class="text-center ">
+        <p class="overall ">Testimonials</p>
+
+    </div>
+
+
+
+    <div class="vector text-center mb-4 ">
+        <svg class="svg-20 " width="35 " height="35 " viewBox="0 0 35 35 " fill="none "
+            xmlns="http://www.w3.org/2000/svg ">
+            <path d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583
+                                        4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917
+                                        35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583
+                                        8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625
+                                        11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083
+                                        24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083
+                                        13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z "
+                fill="#3f993c " />
+        </svg>
+    </div>
+
+    <div class="container ">
+
+        <div class="row ">
+            {% for testimonial in testimonial %}
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12 mb-3 ">
+                <img class="namimg" src="{{testimonial.image.crop.255x255}} " width="100% " alt=" ">
+                <div class="namsum">
+                    <h6>" {{testimonial.name}} "</h6>
+                    <p>{{testimonial.text}}</p>
+                </div>
+            </div>
+            {% endfor %}
+            
+        </div>
+        <hr class="mb-5 " width="25% ">
+    </div>
+
+    <div class="container-fluid care ">
+        <div class="row ">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 p-0 ">
+                <img class="loc-sm " style="position: relative; " src="{% static 'web/images/suscribe.png' %} "
+                    width="100% " alt=" ">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 locate locates ">
+                    <p>Stay in Touch with us</p>
+                    <p class="mb-3 ">Know more about <span class="ayt ">Ayucare</span> </p>
+
+
+                    <form action="{% url 'web:email' %}" method="POST" class="ajax reload">
+                        {% csrf_token %}
+                        {{ email_form.email }}
+                        <button type="submit" class="btn read mt-2">Subscribe</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+{% endblock %}
+
+{% block javascript %}
+<script>
+    function read(id) {
+        document.getElementById('popupp' + id).classList.add('d-block')
+    }
+
+
+    function readout(id) {
+        document.getElementById('popupp' + id).classList.remove('d-block')
+    }
+</script>
+
+<script>
+    function readd() {
+        document.getElementById('popuppp').classList.add('d-block')
+    }
+
+    function readoutt() {
+        document.getElementById('popuppp').classList.remove('d-block')
+    }
+</script>
+
+
+<script>
+    function readw() {
+        document.getElementById('popuppw').classList.add('d-block')
+    }
+
+    function readoutw() {
+        document.getElementById('popuppw').classList.remove('d-block')
+    }
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+
+<script>
+    $('[id=owl-carousel]').owlCarousel({
+        loop: true,
+        margin: 30,
+        dots: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 4
+            },
+
+            1366: {
+                items: 4
+            }
+
+        }
+
+    })
+</script>
+
+
+
+
+
+{% endblock %}

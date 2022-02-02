@@ -1,0 +1,214 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+<main id="aboutpageId">
+<input type="hidden" name="" id="scrollIndex" >
+
+<div class="container-fluid mb-4">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 p-0">
+            <img class="title-fit" width="100%" src="{% static 'web/images/about.png' %}" style="position: relative;"
+                alt="">
+            <div class="col-lg-6 col-md-6 col-sm-8 col-8 titile">
+                <h1 style="color: rgb(255, 255, 255);">About <span style="color: #3f993c;">AYUCARE</span></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="vector text-center mt-5 mb-5">
+    <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+            fill="#3f993c" />
+    </svg>
+    <svg class="ml-4 mr-4 svg-20" width="35" height="35" viewBox="0 0 35 35" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+            fill="#3f993c" />
+    </svg>
+    <svg class="svg-15" width="20" height="20" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+            fill="#3f993c" />
+    </svg>
+</div>
+
+<!-- ----------medicine description section---------- -->
+<div class="text-center" id="aboutAYUCAREId">
+    <p class="overall">AYURVEDIC MEDICINE</p>
+
+    <p class="overall font-20">Ayurveda or Ayurvedic Medicine is the world’s oldest and holistic treatment method. It is
+        the ancient wisdom of medical practice developed in the Indian subcontinent since 6000BC. The elemental
+        principle of ayurvedic medicine is to prevent and treat illness by preserving balance in and harmony between
+        your body, mind and environment. Ayurvedic medicine is one of India’s traditional health care systems and one of
+        the world’s ancient medical systems. Ayurvedic practices are used to maintain health, stress and improve
+        flexibility, strength & stamina.</p>
+    <p class="overall font-20">The World Health Organization gave recognition to Ayurveda as a traditional and
+        complementary system of medicine as an outcome of health care delivered worldwide. Ayurveda harmonises our
+        modern life and habits related to health with the ancient wisdom of utilising natural substances to nourish
+        body, mind and soul. The usage of natural herbs helps in leading a healthy, happy, disease-free and stress-free
+        life. Ayurveda is considered the effective alternative to the conventional medical system by the probity of its
+        approach to curing and preventing ailments with natural resources. The medical and health care system under the
+        ministry of AYUSH ( Ayurveda, Unani, Sidha and Homeopathy) in India, had approved Ayurved as an effective
+        alternative medical system.</p>
+    <!-- <p class="overall font-20">In India Ayurveda is approved by the Medical and Health system of practice under the ministry of AYUSH (Ayurveda, Yoga, Unani, Sidha and Homeopathy).</p>                        -->
+
+</div>
+<!-- ----------medicine description section- end--------- -->
+
+<div class="container-fluid mt-5 mb-5 aboout" id="whyAYUCAREId">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-12 p-0 d-sm-non">
+            <img src="{% static 'web/images/ayurr.png' %}"  width="100%" alt="">
+        </div>
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ayurrr">
+            <h2> <span style="color: #3f993c;">AYUCARE RASYANA CLINIC</span></h2>
+            <p>Arka Kalpana is one of the foremost growing and highly demanded ayurvedic formulations. This effective treatment method is introduced and practised in and around 200 clinics in different regions of Kerala under the name “AYUCARE RASAYANA CLINICS”. These clinics aim to improve the efficacy of Ayurveda devoid of Kashayam and Uzhichil. Arka the highly potent medicine helps in easy consumption, better life, fast action and nourishes body, mind and soul. AYUCARE was a vision of Dr K Mahesh Menon BAMS, MD(Ay) and established ayurvedic clinics in 2000 in different regions of Kerala to provide an effective alternative medicine to the people. The vision of AYUCARE is to enhance the efficacy of Ayurveda treatment by promoting a new formulation of medicines that aims for exemplary results in treatment and excellence in serving health care. Ayucare embraces Arka Chikitsa along with Ayurveda and creates a series of unique medicines called “ARKA''. Arka is the distilled extract of medicinal herbs which is the most potent form of Ayurvedic medicines. Similarly, Marjan Kriyakramas and the speciality massage system are also practised in ayucare clinics. Self Home Therapy or “DIY” (Do It Yourself) therapy is also encouraged, which is more compatible with our modern lifestyle. Unlike the other Ayurvedic treatments in AYUCARE, the treatments are free of kashaya and massages. </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- -------------arka ckitsta------------- -->
+
+<div class="container-fluid mt-5 mb-5" id="chikitsaID">
+    <div class="row">
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ayurrr ayurrr3 ayur-sm tex-lef">
+            <h2><span style="color: #3f993c; ">SPECIALITIES OF TREATMENTS IN AYUCARE RASAYANA CLINICS
+            </span></h2>
+            <p>
+                <p class="tex-lef">Ayucare was established to provide effective and alternative medical treatment for all existing ailments. Ayucare clinics provide excellent medical assistance by combining Ayurveda and Arka Chikitsa. The major specialities of Ayucare Rasayana clinic are:--</p>
+            <ul class="tex-lef" style="color: #fff; font-size: 14px;"><br>
+                <li> Effective medicine by combing Arka (distilled extract of ayurvedic herbs) and
+                    bhavitharasayanagulika.</li>
+                <li>Medicine is devoid of smell, taste, pathya and can be taken along with habitual diets. </li>
+                <li>Provides self-home amendable therapy medicines based on “Marjan Kriyakarma”. </li>
+                <li>Devoid of Kashaya, Uzhuchil and long term medicines. </li>
+               
+                <li> Non-reactive with modern medicines, accordingly it can be intaken with any pre-prescribed
+                    medicines. </li>
+                <li>An expert panel of certified doctors in all clinics. </li>
+                <li>Online medical service for physically disabled or bedridden patients.</li>
+
+                <li>Over 200 clinics all over Kerala for patients’ convenience.</li>
+                <li>Medicines that can be used internally or externally, as opinion some specific conditions as per the advice of the doctor.</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="col-lg-5 col-md-12 col-sm-12 col-12 p-0 imgayur d-sm-non">
+            <img src="{% static 'web/images/aaa.jpg' %}" width="100%" alt="">
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+<!-- ---------------team section - start------------ -->
+
+<!-- -----------------team section end------------- -->
+
+<div class="container-fluid mt-5 mb-5 aboout">
+    <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-12 p-0 d-sm-non">
+            <img class="" src="{% static 'web/images/ayur2.png' %}" width="100%" alt="">
+        </div>
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-12 ayurrr">
+            <h2>The Team</h2>
+            <p>The success of every medicinal clinic is achieved by its dedicated group of individuals and their excellence in service. Fortunately, AYUCARE is embedded with talented and dedicated people together forming an excellent team. The key highlight of AYUCARE is the set of qualified dedicated doctors and the supporting staff who work side by side to provide excellent Ayurvedic treatment to the patients. The discomforts of the patient are properly evaluated and the treatments are given accordingly. Every member of AYUCARE is dedicated to curing patients using an effective ayurvedic approach. The team of AYUCARE rasayana clinic consists of doctors, nurses and other staff. Each member of ayucare's team is devoted to providing quality services to the patients. All the doctors are highly qualified professionals who are skilled to cure the ailments of the patient. Care and assistance are served to all patients by affectionate nurses who are also talented and qualified to provide exceptional services. All members of the clinic are passionate about their jobs and work hard to make the patient experience more convenient. Proper medicinal prescription, good interaction and communication with the patient, understanding the patient's difficulties and all other assistance are provided with excellence.The cure is given to the body, mind and soul with ultimate care and assistance.  </p>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------vision----------------- -->
+<div class="container vision" id="test">
+    <div class="row text-center">
+        <div class="col-lg-6">
+            <h2>Our Vision</h2>
+            <div class="vector text-center">
+                <svg width="15" height="15" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+                <svg class="ml-4 mr-4" width="20" height="20" viewBox="0 0 35 35" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+            </div>
+            <p>Our vision is to promote the easier approach of  Ayurveda by demonstrating the efficacy of Arka Chikitsa Which is developed in 18 AD with highly potent medicine to cure the ailment. Similarly, the “Marjan Kriyakarma”- the speciality massage system developed in Kerala is also implemented as DIY therapy.</p>
+        </div>
+        <div class="col-lg-6">
+            <h2>Our Mission</h2>
+            <div class="vector text-center">
+                <svg width="15" height="15" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+                <svg class="ml-4 mr-4" width="20" height="20" viewBox="0 0 35 35" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+                <svg width="15" height="15" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M26.5417 10.9375C26.25 7.875 26.1042 4.8125 26.3958 1.60417C24.6458 3.9375 22.6042 5.97917 20.5625 8.02083C19.3958 5.39583 18.2292 2.77083 17.5 0C16.7708 2.77083 15.6042 5.39583 14.4375 8.02083C12.3958 6.125 10.3542 3.9375 8.60417 1.60417C8.89583 4.8125 8.75 7.875 8.45833 10.9375C5.6875 9.91667 2.625 8.75 0 7.29167C3.9375 14.2917 5.54167 22.6042 7.875 28C9.1875 32.0833 12.9792 35 17.5 35C22.0208 35 25.9583 32.0833 27.2708 27.8542C29.4583 22.6042 31.0625 14.2917 35 7.29167C32.375 8.75 29.3125 9.91667 26.5417 10.9375ZM24.7917 5.6875C24.7917 7.72917 24.7917 9.625 24.9375 11.375C25.375 11.2292 23.7708 11.8125 22.75 12.1042C22.3125 11.2292 21.875 10.3542 21.2917 9.33333C22.4583 8.3125 23.625 7.14583 24.7917 5.6875ZM10.0625 11.5208C10.2083 9.77083 10.2083 7.875 10.2083 5.6875C11.375 7 12.5417 8.3125 13.7083 9.47917C13.2708 10.3542 12.8333 11.375 12.25 12.25C11.0833 11.8125 9.625 11.375 10.0625 11.5208ZM5.10417 12.3958C7.29167 13.2708 9.33333 14 11.0833 14.5833C9.91667 16.7708 8.89583 18.9583 8.16667 20.8542C7.4375 18.6667 6.41667 15.6042 5.10417 12.3958ZM17.5 32.0833C13.4167 32.0833 10.2083 28.875 10.2083 24.7917C10.2083 20.7083 13.125 17.5 17.5 7.29167C21.875 17.5 24.7917 20.7083 24.7917 24.7917C24.7917 28.875 21.5833 32.0833 17.5 32.0833ZM26.8333 20.8542C26.1042 18.9583 25.0833 16.9167 23.9167 14.5833C25.6667 14 27.7083 13.2708 29.8958 12.3958C28.5833 15.6042 27.5625 18.5208 26.8333 20.8542Z"
+                        fill="#3f993c" />
+                </svg>
+            </div>
+            <p>Our mission is “Legacy in Ayurveda, Excellence in Care “. Excellence in care to all we serve by providing
+                quality service with dedicated physicians and certified medicine to assure the utmost health care.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container-fluid care ">
+    <div class="row ">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 p-0 ">
+            <img class="loc-sm " style="position: relative; " src="{% static 'web/images/suscribe.png' %} "
+                width="100% " alt=" ">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 locate locates ">
+                <p>Stay in Touch with us</p>
+                <p class="mb-3 ">Know more about <span class="ayt ">Ayucare</span> </p>
+
+
+                <form action="{% url 'web:email' %}" method="POST" class="ajax reload">
+                    {% csrf_token %}
+                    {{ email_form.email }}
+                    <button type="submit" class="btn read mt-2">Subscribe</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- start footer -->
+</main>
+
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}

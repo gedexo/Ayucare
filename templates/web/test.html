@@ -1,0 +1,72 @@
+<div id="showscrl" class="container doctor mb-5">
+  {% for schedu in schedules %}
+  <div class="row justify-content-center mb-4">
+
+    <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4">
+
+      <h4 style="text-decoration: underline;">Doctor Details</h4>
+
+      <h5>{{schedu.doctor.name}}</h5>
+      <h6>Reg No : {{schedu.doctor.register_number}}</h6>
+      <h6>{{schedu.doctor.qualification}}</h6>
+      <h6 style="font-weight: 600;">{{schedu.start_time}} - {{schedu.end_time}}</h6>
+
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+
+
+      <div id="" class="">
+        <h4 class=" " style="text-decoration: underline;">Branch informations</h4>
+        <div class="row pl-3">
+
+          <div class="col-lg-10 col-10 p-0">
+            <p style="color: black; text-align: left;">
+              <span style="font-weight: 600;"> {{branch.name}}</span>
+              <br>{{branch.title}}<br> {{branch.location}}<br>{{branch.phone}}
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-12 text-center">
+      {% if whatsappbtn %}
+      <a target="blank" href="{{whatsappbtn}}"> <button style="background: #3f993c;" class="read check appoi mt-3"><i
+            class="icofont-brand-whatsapp mr-3"></i>Sent Appointment</button> </a>
+      {% else %}
+      <a href="#" onclick="btnclickcon('{{schedu.id}}')"> <button class="read check appoi mt-3">Book Appoinment</button>
+      </a>
+      {% endif %}
+    </div>
+
+
+
+
+  </div>
+  {% endfor %}
+</div>
+
+
+<div class="col-lg-4 posit-absl" id="branna">
+
+  <div class="colr-bg">
+
+
+    <form action="" method="POST" class="mb-0">
+      {% csrf_token %}
+      <div onclick="btnclickconn()" id="clo"><span class="closse iconify"
+          data-icon="ant-design:close-circle-outlined"></span></div>
+      <input required style="height: 40px;" class="form-control required" type="text" name="brname" id="brname"
+        placeholder="Name"> <br>
+      <input required style="height: 40px;" class="form-control required" type="text" name="brnumber" id="brnumber"
+        placeholder="Number"> <br>
+      <button type="submit" class="btn btn-danger">Submit</button>
+
+      <input type="hidden" name="scheduleID" id="scheduleID">
+
+    </form>
+  </div>
+</div>

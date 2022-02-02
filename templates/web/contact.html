@@ -1,0 +1,122 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 p-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.110187005998!2d75.87952991411952!3d11.179476854683239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65139406d4f89%3A0x33b6fe42026767fd!2sGedexo!5e0!3m2!1sen!2sin!4v1635162590022!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="container withus">
+    <div class="row text-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 contact">
+           
+            <form action="" method="post" class="ajax">
+                {% csrf_token %}
+
+                <h3 class="mb-4">Contact Details</h3>
+                {{form.name}} <br>
+                {{form.phone}} <br>
+                {{form.email}} <br> <br>
+                {{form.text}} <br> 
+                <br>
+               <button class="btn btn-primary" type="submit">SEND MESSAGE</button>
+
+              </form>
+
+        </div>
+        <div class="col-lg-5 col-md-6 col-sm-12 col-12 touch">
+            <h4 class="text-center mb-3">Get in Touch with Us</h4>
+            <p class="mb-3">For any queries or clarifications regarding Kerala Ayurveda products or its services feel free to get in touch with us at anytime</p>
+            <a class="" href="mailto:info@ayucare.com"> <span class="iconify mr-3 cont" data-icon="ant-design:mail-twotone"></span>info@ayucare.com</a> <br><br>
+            <a class="" href="tel:+919876543210"> <span class="iconify mr-3 cont" data-icon="cil:mobile"></span>(+91) 987 654 32 10</a> <br><br>
+            <h5><span class="iconify mr-3 cont" data-icon="cil:building"></span>Lorem Ipsum(Head Office)</h5>
+            <p class="mb-1 ml-20">Registered Office – Head Office</p>
+            <p class="mb-1 ml-20">Lorem ipsum - 678 678</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block javascript %}
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.all.min.js"></script>
+    <script>
+        $(document).on('submit', 'form.ajax', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var data = new FormData(this);
+            var action_url = $this.attr('action');
+            var reset = $this.hasClass('reset');
+            var reload = $this.hasClass('reload');
+            var redirect = $this.hasClass('redirect');
+            var redirect_url = $this.attr('data-redirect');
+
+            $.ajax({
+                url: action_url,
+                type: 'POST',
+                data: data,
+                cache: false,
+                contentType: false,
+                processData: false,
+                dataType: "json",
+
+                success: function(data) {
+
+                    var status = data.status;
+                    var title = data.title;
+                    var message = data.message;
+                    var pk = data.pk;
+
+                    if (status == "true") {
+                        if (title) {
+                            title = title;
+                        } else {
+                            title = "Success";
+                        }
+
+                        Swal.fire({
+                            title: title,
+                            html: message,
+                            icon: 'success',
+                        }).then(function() {
+                            if (redirect) {
+                                window.location.href = redirect_url;
+                            }
+                            if (reload) {
+                                window.location.reload();
+                            }
+                            if (reset) {
+                                window.location.reset();
+                            }
+                        });
+
+                    } else {
+                        if (title) {
+                            title = title;
+                        } else {
+                            title = "An Error Occurred";
+                        }
+                        Swal.fire({
+                            title: title,
+                            html: message,
+                            icon: "error"
+                        });
+
+                    }
+                },
+                error: function(data) {
+                    var title = "An error occurred";
+                    var message = "something went wrong";
+                    Swal.fire({
+                        title: title,
+                        html: message,
+                        icon: "error"
+                    });
+                }
+            });
+        });
+    </script> -->
+{% endblock javascript %}

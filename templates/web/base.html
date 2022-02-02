@@ -1,0 +1,126 @@
+<html>
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="{% static 'web/css/fonts,_icomoon,_style.css+css,_owl.carousel.min.css+css,_bootstrap.min.css+css,_style.css.pagespeed.cc.11YcxEXwqA.css' %}" />
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/icofont/icofont.min.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+
+    <link href="{% static 'web/images/favv.png' %}" rel="icon">
+    <title>AYUCARE</title>
+</head>
+
+{% include 'web/partials/header.html' %}
+{% block content %}
+
+{% endblock %}
+
+{% include 'web/partials/footer.html' %}
+
+
+
+
+<script
+    src="{% static 'web/js/popper.min.js' %}"></script>
+<script src="https://code.iconify.design/2/2.0.3/iconify.min.js "></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+<script src="{% static 'web/js/click.js' %}" ></script>
+<script src="{% static 'web/js/main.js' %}"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.all.min.js"></script>
+<script>
+    $(document).on('submit', 'form.ajax', function (e) {
+        e.preventDefault();
+        var $this = $(this);
+        var data = new FormData(this);
+        var action_url = $this.attr('action');
+        var reset = $this.hasClass('reset');
+        var reload = $this.hasClass('reload');
+        var redirect = $this.hasClass('redirect');
+        var redirect_url = $this.attr('data-redirect');
+
+        $.ajax({
+            url: action_url,
+            type: 'POST',
+            data: data,
+            cache: false,
+            contentType: false,
+            processData: false,
+            dataType: "json",
+
+            success: function (data) {
+
+                var status = data.status;
+                var title = data.title;
+                var message = data.message;
+                var pk = data.pk;
+
+                if (status == "true") {
+                    if (title) {
+                        title = title;
+                    } else {
+                        title = "Success";
+                    }
+
+                    Swal.fire({
+                        title: title,
+                        html: message,
+                        icon: 'success',
+                    }).then(function () {
+                        if (redirect) {
+                            window.location.href = redirect_url;
+                        }
+                        if (reload) {
+                            window.location.reload();
+                        }
+                        if (reset) {
+                            window.location.reset();
+                        }
+                    });
+
+                } else {
+                    if (title) {
+                        title = title;
+                    } else {
+                        title = "An Error Occurred";
+                    }
+                    Swal.fire({
+                        title: title,
+                        html: message,
+                        icon: "error"
+                    });
+
+                }
+            },
+            error: function (data) {
+                var title = "An error occurred";
+                var message = "something went wrong";
+                Swal.fire({
+                    title: title,
+                    html: message,
+                    icon: "error"
+                });
+            }
+        });
+    });
+</script>
+
+{% block javascript %}
+
+{% endblock %}
+
+</body>
+
+</html>

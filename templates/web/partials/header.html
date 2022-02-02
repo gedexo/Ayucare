@@ -1,0 +1,73 @@
+{% load static %}
+<!-- start Header -->
+
+<nav class="site-navigationn" role="navigation">
+    <div id="closse"><span class="closse iconify" data-icon="ant-design:close-circle-outlined"></span></div>
+    <ul class="navigationn-ul p-5">
+        <li><a href="/" class="nav-link {% if is_index %} active{% endif %}">HOME</a></li>
+        <li><a href="{% url 'web:about' %}" class="nav-link {% if is_about %} active{% endif %}">ABOUT US</a></li>
+        <li><a href="{% url 'web:products' %}" class="nav-link">PRODUCTS</a></li>
+        <li><a href="{% url 'web:gallery' %}" class="nav-link">GALLERY</a></li>
+        <li><a href="{% url 'web:contact' %}" class="nav-link">CONTACT US</a></li>
+        <li><a href="{% url 'web:doctors' %}" class="nav-link">OUR DOCTORS</a></li>
+    </ul>
+</nav>
+<div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+</div>
+<div class="top-bar" id="hre1">
+    <div class="container">
+        <div class="row justih">
+            <div class="col-lg-4 col-4 dd-none">
+
+
+                <a href="#" class="pr-2"><span class="iconify" data-icon="bi:twitter"></span> </a>
+                <a href="#" class="pr-2"><span class="iconify" data-icon="bi:facebook"></span> </a>
+                <a href="#" class=""><span class="iconify" data-icon="bi:instagram"></span> </a>
+
+            </div>
+            <div class="col-lg-4 col-4 text-center">
+                <img height="60px" src="{% static 'web/images/ayucare.svg' %}" alt="">
+            </div>
+            <div class="col-lg-4 col-4 dd-none text-center">
+                <a href="mailto:info@ayucare.com" class="mr-3">info@ayucare.com</a>
+                <a href="tel:+919876543210" class=""><span class="d-none d-md-inline-block">(+91)9876543210</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<header id="header" class="site-navbar js-sticky-header site-navbar-target" role="banner">
+    <div class="container-fluid p-0">
+        <div class="row position-relative">
+
+
+
+            <div class="col-lg-8 col-8">
+                <nav class="site-navigation" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                        <li><a href="/" class="nav-link {% if is_index %} active {% endif %}">HOME</a></li>
+                        <li><a onclick="setScroll('aboutpageId')" class="nav-link about-link {% if is_about %} active {% endif %}">ABOUT US</a></li>
+                        <li><a href="{% url 'web:products' %}" class="nav-link {% if is_products %} active {% endif %}">PRODUCTS</a></li>
+                        <li><a href="{% url 'web:gallery' %}" class="nav-link {% if is_gallery %} active {% endif %}">GALLERY</a></li>
+                        <li><a href="{% url 'web:contact' %}" class="nav-link {% if is_contact %} active {% endif %}">CONTACT US</a></li>
+                        <li><a href="{% url 'web:doctors' %}" class="nav-link {% if is_doctors %} active {% endif %}">OUR DOCTORS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="col-lg-3 locate">
+                <a href="{% url 'web:branch' %}" class="branch float-right">LOCATE BRANCH</a>
+            </div>
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" style="color: black;" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="iconify text-black" data-icon="gg:menu"></span></a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- end Header -->
