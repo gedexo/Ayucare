@@ -13,10 +13,12 @@ from .forms import ContactForm,SubscribeForm
 def index(request):
     treatment = Treatment.objects.all()
     testimonial = Testimonial.objects.filter().order_by('-id')[:4]
+    doctors=Doctor.objects.filter(inHomeScreen=True)
     context = {
         "is_index" : True,
         "treatment":treatment,
-        "testimonial":testimonial
+        "testimonial":testimonial,
+        "doctors":doctors,
     }
     return render(request, 'web/index.html',context)
 

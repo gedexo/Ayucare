@@ -625,30 +625,16 @@
 
     <div class="container text-center doctor doc-height ">
         <div id="owl-carousel" class="owl-carousel owl-theme">
+            {% for doctor in doctors %}
             <div class="doct">
-                <img src="{% static 'web/images/doctor/Dr Priya Mahesh-10919.jpeg' %} " alt=" ">
-                <h3>Dr. Priya Mahesh</h3>
-                <h4>BAMS, MD</h4>
-                <button class="read check ">Check Availability</button>
+                <img src="{{doctor.image.crop.350x400}}" alt=" ">
+                <h3>{{doctor.name}}</h3>
+                <h4>{{doctor.qualification}}</h4>
             </div>
-
-            <div class="doct">
-                <img src="{% static 'web/images/doctor/DR SALINI GOPALAKRISHNAN-19360.jpeg' %} " alt=" ">
-                <h3>Dr. Priya Mahesh</h3>
-                <h4>BAMS, MD</h4>
-                <button class="read check ">Check Availability</button>
-            </div>
-
-            <div class="doct">
-                <img src="{% static 'web/images/doctor/Dr Krishna Priya-22600.jpeg' %} " alt=" ">
-                <h3>Dr. Priya Mahesh</h3>
-                <h4>BAMS, MD</h4>
-                <button class="read check ">Check Availability</button>
-            </div>
-           
-           
-            
+            {% endfor %}
         </div>
+
+        
     </div>
 
 
