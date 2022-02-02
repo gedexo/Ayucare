@@ -1,0 +1,31 @@
+{% extends 'official/base.html' %} {% load static %} {% block content %}
+
+<div><h3 class="text-center">Add Photos</h3></div>
+<div class="container mb-5 mt-5">
+  <div class="row">
+    {% for gallery in galleryItems %}
+    <div class="col-lg-3 col-md-4 col-sm-3 col-3 pb-4">
+      <img src="{{gallery.image.url}}" width="100%" alt="missing image" />
+    </div>
+    {% endfor %}
+  </div>
+  <form
+    action=""
+    method="POST"
+    class="ajax reload"
+    enctype="multipart/form-data"
+    id="resform"
+  >
+    {% csrf_token %}
+    <div class="row">
+      <div class="col-md-6 form-group">{{galleryForm.image}}</div>
+      <div class="col-12 mt-5">
+      <div class="text-center">
+        <button class="btn btn-danger" type="submit">Submit</button>
+      </div>
+    </div>
+    </div>
+  </form>
+</div>
+
+{% endblock %}

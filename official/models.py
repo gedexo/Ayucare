@@ -31,6 +31,7 @@ class Doctor(models.Model):
     name = models.CharField(max_length=128)
     image = VersatileImageField(upload_to ='doctors',blank=True,null=True)
     qualification = models.CharField(max_length=128)
+    inHomeScreen=models.BooleanField(default=True)
     
     def __str__(self):
         return str(self.name)

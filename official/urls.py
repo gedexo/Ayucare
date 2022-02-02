@@ -11,6 +11,7 @@ urlpatterns = [
     path('logout/', logout, name='logout'),
     path('addDoctor/',addDoctor,name="addDoctor"),
     path('addSchedule/',addSchedule,name="addSchedule"),
+    path('addGallery/',addGallery,name="addGallery"),
     
     path('delet/<str:id>',delet,name="delet"),
     path('deletbranch/<str:id>',deletbranch,name="deletbranch"),
