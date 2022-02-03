@@ -37,7 +37,7 @@
     <div class="row justify-content-center">
         
         {% for DoctorandSchedule in DoctorandSchedules %}
-        {% if DoctorandSchedule.count %}
+        
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 box-50 mb-4 pb-4">
             <img src="{{DoctorandSchedule.doctor.image.crop.290x400}}" width="100%" alt="">
             <h4>Name : {{DoctorandSchedule.doctor.name}}</h4>
@@ -66,6 +66,8 @@
             <button id="btn{{DoctorandSchedule.doctor.id}}" onclick="btnclick('{{DoctorandSchedule.doctor.id}}')" class="read check">Check Availability <span class="calender"><i
                         class="icofont-ui-calendar"></i></span></button>
                         <div id="bx-shw{{DoctorandSchedule.doctor.id}}" class="appointment mt-4">
+                  
+                {% if DoctorandSchedule.count %}            
                 {% for schedule in DoctorandSchedule.schedules %}
            
 
@@ -101,12 +103,15 @@
                <hr style="background: black; height: 1px;">
             
                {% endfor %}
+               {% else %}
+               <div>This doctor currently has no schedules.<br> Contact us to know more.</div>
+               {% endif %}
             </div>
 
 
         </div>
         
-        {% endif %}
+        
         {% endfor %}
 
 
