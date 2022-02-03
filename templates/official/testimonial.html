@@ -4,10 +4,13 @@
 <div class="container mb-5 mt-5">
   <div class="row">
     {% for testimonial in TestimonialItems %}
-    <div class="col-lg-3 col-md-4 col-sm-3 col-3 pb-4 {{testimonial.id}}">
+    <div class="col-lg-3 col-md-4 col-sm-12 col-12 pb-4 {{testimonial.id}}">
       <img src="{{testimonial.image.url}}" width="100%" alt="missing image" />
       <p>Name : {{testimonial.name}}</p>
       <p>Text : {{testimonial.text}}</p>
+      
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-3 col-3 pb-4 {{testimonial.id}}" >
       <button type="button" class="btn btn-danger" onclick="deleteTestimonial({{testimonial.id}})">Delete</button>
     </div>
     {% endfor %}
