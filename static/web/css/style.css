@@ -362,10 +362,15 @@ footer {
 
 .ayurrr {
     font-family: 'Marcellus', serif !important;
-    background: linear-gradient(black, black, #3f993c);
+    /* background: linear-gradient(black, black, #3f993c); */
+    background: rgba(49, 49, 49, 0.85);
     text-align: justify;
-    padding: 0px 45px;
-    padding-top: 20px;
+    /* padding: 0px 45px;
+    padding-top: 20px; */
+
+    padding: 67px 45px;
+    padding-top: 16px;
+    margin-top: -25px;
 
 }
 
@@ -385,15 +390,23 @@ p {
 }
 
 .ayurrr2 {
-    margin-top: 152px;
+    /* margin-top: 152px;
     z-index: 10;
-    padding: 40px;
+    padding: 40px; */
+
+    z-index: 10;
+    padding: 38px;
+    margin-top: -27px;
 }
 
 .ayurrr3 {
-    z-index: 10;
+    /* z-index: 10;
     padding: 20px;
-    margin-top: -20px;
+    margin-top: -20px; */
+
+    z-index: 10;
+    padding: 35px;
+    margin-top: -26px;
 }
 
 .mb-200 {
@@ -589,8 +602,9 @@ p {
     left: 8%;
     bottom: 5%;
     z-index: 9999;
-    background: linear-gradient(black, black, #3f993c);
-    border-radius: 30px;
+    /* background: linear-gradient(black, black, #3f993c); */
+    background: rgba(49, 49, 49, 0.85);
+    /* border-radius: 30px; */
     padding: 15px;
 }
 
@@ -730,7 +744,7 @@ p {
 .box-sh {
     box-shadow: 5px 5px 18px rgb(0 0 0 / 16%);
     padding: 20px 0px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 
 .colr-bg input {
@@ -769,7 +783,7 @@ p {
     /* height: 300px; */
     height: 255px;
     padding: 20px 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .item h6 {
@@ -839,7 +853,7 @@ p {
     /* height: 300px; */
     height: 308px;
     padding: 20px 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .MUKHARAKSHA {
