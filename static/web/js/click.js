@@ -9,6 +9,6 @@ function animatetoID(id) {
 
 function setScroll(sectionId) {
     localStorage.setItem("sectionId", sectionId);
-    window.location = 'https://ayucareclinic.com/about/'
+    window.location = 'http://127.0.0.1:8000/about/'
 
 }
